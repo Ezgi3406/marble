@@ -1,5 +1,5 @@
 nav.navbar, .navbar-default {
-  background-color:lightgray !important;
+  background-color:white !important;
 }
 
 .navbar-default {
@@ -9,11 +9,12 @@ nav.navbar, .navbar-default {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: rgb(114, 41, 41);
 }
 
 .navbar-default .navbar-brand {
   color: white;
+
 }
 
 .navbar-default .navbar-toggle {
