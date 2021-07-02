@@ -4,7 +4,7 @@ import { Navbar, Nav, NavDropdown,Form,FormControl,Button,ButtonGroup,DropdownBu
 
 
 import "./CustomNavbar.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -31,7 +31,7 @@ export default function CustomNavbar() {
       <NavDropdown.Item>
         <NavDropdown title="ANADOLU" id= "dropdown-button-drop-right" key='right' drop='right'  className="m-auto " menuAlign='right'
   as={ButtonGroup}>
-        <NavDropdown.Item href="#action/3.1"  >AVRUPA YAKASI</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1" >AVRUPA YAKASI</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.1">ASYA YAKASI</NavDropdown.Item>
         </NavDropdown>
         </NavDropdown.Item>
