@@ -1,0 +1,65 @@
+:root{
+    --ff-primary:'Source Sans Pro',sans-serif;
+    --ff-secondary:'Source Code Pro',monospace;
+
+    --fw-reg:300;
+    --fw-bold:900;
+
+    --clr-light:#fff;
+    --clr-dark:#303030;
+    --clr-accent:#a75ed8;
+
+    --fs-h1:3rem;
+    --fs-h2:2.25rem;
+    --fs-h3:1.25rem;
+    --fs-body:1rem;
+
+    --bs:0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15)
+}
+footer{
+    background: #111;
+    color:var(--clr-accent);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: var(--fs-h3);
+}
+
+.footer a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.footer p{
+    font-weight: var(--fw-bold)
+}
+
+.footer__link{
+    font-weight: var(--fw-reg);
+}
+
+.footer__link:hover,
+.social-list__link:hover{
+    opacity: .7;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+.social-list-footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1;
+    padding: 0;
+}
+
+.social-list-footer__item{
+    margin:0 .5em;
+    color:white;
+}
+
+.img-footer {
+    height:10%;
+    width: 10%;
+}

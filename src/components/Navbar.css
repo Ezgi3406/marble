@@ -7,7 +7,7 @@
       margin-left: 100%;
     }
     .dropdown-trigger {
-      button::after {
+      button:after {
         content: '⦠'
       }
       button {
