@@ -4,6 +4,19 @@ import {Nav,Dropdown,Form,FormControl,Button,ButtonGroup,SplitButton,DropdownBut
 export default function Navbar() {
   return (
     <div>
+      <div>
+      <img
+        // src="https://image.shutterstock.com/image-vector/london-clock-tower-logo-big-260nw-336201224.jpg"
+        src="./BlueMarble.png"
+        // width="296"
+        // height="80"
+        // className="d-inline-block align-center m-0 text-center text-white"
+        alt="Blue Marble"
+        style={{width:'296px',height:'80px',margin:'0 auto',display:'flex',justifyContent:'center'}}
+      />
+      </div>pp'
+      
+
       <div className="mb-2">
     
       <DropdownButton
