@@ -13,14 +13,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function CustomNavbar() {
   return (
     <div>
-     <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#home"><img
-        src="https://image.shutterstock.com/image-vector/london-clock-tower-logo-big-260nw-336201224.jpg"
-        width="200"
-        height="100"
-        className="d-inline-block align-top m-0 text-center text-white"
+      <div>
+      <img
+        // src="https://image.shutterstock.com/image-vector/london-clock-tower-logo-big-260nw-336201224.jpg"
+        src="./Blue-marble.png"
+        // width="296"
+        // height="80"
+        // className="d-inline-block align-center m-0 text-center text-white"
         alt="Blue Marble"
-      /></Navbar.Brand>
+        style={{width:'296px',height:'80px',margin:'0 auto',display:'flex',justifyContent:'center'}}
+      />
+      </div>
+     <Navbar bg="light" expand="lg">
+  <Navbar.Brand href="#home"></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="m-auto ">
