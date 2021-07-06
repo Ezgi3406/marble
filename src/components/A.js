@@ -6,6 +6,7 @@ export default function A() {
   return (
     <div>
 		<p>hello</p>
+    <p>hello2 tugce</p>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <a
