@@ -10,7 +10,11 @@
     "bootstrap": "^5.0.2",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
+<<<<<<< HEAD
+    "react-bootstrap-icons": "^1.5.0",
+=======
     "react-bootstrap-submenu": "^1.0.2",
+>>>>>>> main
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",

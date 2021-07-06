@@ -16,7 +16,11 @@ export default function CustomNavbar() {
       <div>
       <img
         // src="https://image.shutterstock.com/image-vector/london-clock-tower-logo-big-260nw-336201224.jpg"
+<<<<<<< HEAD
+        src="./Blue-marble.png"
+=======
         src="./bluemarble.png"
+>>>>>>> main
         // width="296"
         // height="80"
         // className="d-inline-block align-center m-0 text-center text-white"
