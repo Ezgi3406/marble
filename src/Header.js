@@ -3,7 +3,6 @@ import {FaInstagram,FaFacebookSquare,FaTwitter,FaSignInAlt}from 'react-icons/fa'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css'
 
-
 export default class Header extends Component {
     render() {
         return (
