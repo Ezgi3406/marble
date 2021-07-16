@@ -31,9 +31,9 @@ const Navbar = () => {
         </button>
       </div>
       <ul className="nav-links">
-        <li>
-          <button className="link-btn"  onMouseOver={displaySubMenu}  >turkiye</button>
-        </li>
+      {/*<li>*/}
+          <button className="link-btn"  onMouseOver={displaySubMenu}>turkiye</button>
+        {/*</li>*/}
         <li>
           <button className="link-btn" onMouseOver={displaySubMenu} >dunya</button>
         </li>

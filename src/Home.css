@@ -20,3 +20,15 @@
 h3 {
   margin-bottom: 1em;
 }
+
+p {
+  font: 1em sans-serif;
+
+  text-align:justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+   word-spacing: 2px; 
+   padding-top: 3px;
+  
+}
