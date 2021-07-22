@@ -8,11 +8,11 @@ export default class Header extends Component {
         return (
             <div>
                 <header  >
-                <ul class="social-list-left H6">
+                <ul class="social-list-left">
                 <li class="social-list__item"><a class="social-list__link" href=""><img class="img-header" src="https://cdn.goadventureturkey.com/goturkey/static/images/turkiye-dark.svg"/></a></li></ul>
                 
                 <ul class="social-list" >
-                    <li title="Sign in" style={{margin:".25em 1.75em"}} class="social-list__item"><a class="social-list__link" href=""><FaSignInAlt/> SIGN IN</a></li>
+                    <li title="Sign in" style={{margin:".25em 1.75em"}} class="social-list__item"><a class="social-list__link" href=""><FaSignInAlt/> KAYIT OL</a></li>
                     
                     <li class="social-list__item"><a class="social-list__link" href=""><FaFacebookSquare/></a></li>
                     <li class="social-list__item"><a class="social-list__link" href=""><FaInstagram/></a></li>

@@ -9,7 +9,7 @@ import Header from './Header'
 
 function App() {
   return (
-    <>
+    <div>
       <Header/>
       {/* <Sidebar/> */}
       <Navbar/>
@@ -17,8 +17,8 @@ function App() {
       {/* <Hero/> */}
       <Submenu/>
       <Footer/>
-
-    </>
+      </div>
+    
   )
 }
 
