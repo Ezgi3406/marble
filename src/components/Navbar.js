@@ -3,6 +3,9 @@ import logo from './images/bluemarble.png'
 import { FaBars, FaSearch } from 'react-icons/fa'
 import {useGlobalContext} from './context'
 
+
+
+
 const Navbar = () => {
   const{openSidebar,openSubMenu,closeSubMenu}=useGlobalContext()
   
@@ -42,9 +45,11 @@ const Navbar = () => {
         </li>
         <button className="btn signin-btn" onClick={displaySubMenu} ><FaSearch /></button>
       </ul>
-     
+      
     </div>
+   
   </nav>
+  
 }
 
 export default Navbar
