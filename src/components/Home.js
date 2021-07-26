@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 //import { Link } from 'react-router-dom';
-import { Jumbotron,Row, Col, Image, Carousel,Container  } from 'react-bootstrap';
+import { Jumbotron,Row, Col, Image,Button, Carousel,Container  } from 'react-bootstrap';
 import './Home.css';
 import Header from '../components/Header/Header';
 import Navbar from './Navbar'
 import Submenu from './Submenu'
+import { Link } from 'react-router-dom';
+
 export default class Home extends Component {
   render() {
     return (
@@ -129,6 +131,11 @@ export default class Home extends Component {
               izlerken İstanbul'un dünyanın en muhteşem şehirlerinden biri
               olduğunu anlayabilirsiniz.
             </p>
+            <p>
+            <Link to="/istanbul">
+                    <Button bsStyle="primary">More</Button></Link>
+                    </p>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -144,6 +151,8 @@ export default class Home extends Component {
               Paul'un önemli duraklarından biri ve Pamfilya uygarlığına ait
               önemli liman kentidir.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -159,6 +168,8 @@ export default class Home extends Component {
               dünyaca ünlü peri bacalarının yanı sıra Karanlık ve Tokalı
               kiliselerinde tarih severler için önemli bir yerdir.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -174,6 +185,8 @@ export default class Home extends Component {
               sağlık ve kültür turizmi gibi turizm türleri kentte alternatif
               turizm çeşitliliğini oluşturmaktadır.{" "}
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -190,6 +203,8 @@ export default class Home extends Component {
               Kenti (Kız Kalesi) gibi bazıları UNESCO Dünya Mirası Geçici
               Listesi'nde yer almaktadır.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -206,6 +221,8 @@ export default class Home extends Component {
               tanınırken;iç kesimleri,sayısız antik uygarlığın hikayelerini
               anlatan kalıntılar ve anıtlar açısından zengindir.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -222,6 +239,8 @@ export default class Home extends Component {
               tatil alternatifleri sunarken Alaçatı bölgesi ünlü bir rüzgâr
               sörfü destinasyonu olarak öne çıkıyor.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
           <Col xs={12} sm={3} className="person-wrapper">
             <Image
@@ -237,6 +256,8 @@ export default class Home extends Component {
               Marmaris, harika bir atmosferde doğal güzellikleri ve bölgenin
               zengin tarihini keşfedip dinlenmek isteyenlerin uğrak noktasıdır.
             </p>
+            <Button bsStyle="primary">More</Button>
+
           </Col>
         </Row>
 
