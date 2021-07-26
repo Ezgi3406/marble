@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import logo from './images/bluemarble.png'
 import { FaBars, FaSearch } from 'react-icons/fa'
 import {useGlobalContext} from './context'
+import { Link } from 'react-router-dom';
 
 
 
@@ -41,7 +42,11 @@ const Navbar = () => {
           <button className="link-btn" onMouseOver={displaySubMenu} >dunya</button>
         </li>
         <li>
-          <button className="link-btn" onMouseOver={displaySubMenu} >hakkimizda</button>
+          
+        <Link to="/About">
+        <button className="link-btn" onMouseOver={displaySubMenu}>hakkimizda</button>
+          </Link>
+          
         </li>
         <button className="btn signin-btn" onClick={displaySubMenu} ><FaSearch /></button>
       </ul>

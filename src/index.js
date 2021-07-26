@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'
+import './components/index.css'
 import App from './App'
-import {AppProvider} from './context'
+import {AppProvider} from './components/context'
 ReactDOM.render(
   <React.StrictMode>
    <AppProvider>
