@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
      
       <Container >
-         <Header/>
+         {/* <Header/> */}
          <Navbar/>
         <Submenu/>
          
