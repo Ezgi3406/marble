@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+
+
 import { loginUser } from '../../redux/actions';
 
 class Login extends Component {
@@ -36,6 +38,8 @@ class Login extends Component {
   render() {
     const user = this.props.user;
     return (
+      
+      
       <div className="container">
         <form className="form-elegant" onSubmit={this.submitForm}>
           <div className="card">
@@ -118,6 +122,7 @@ class Login extends Component {
           </div>
         </form>
       </div>
+      
     );
   }
 }

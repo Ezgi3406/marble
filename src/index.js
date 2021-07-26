@@ -10,15 +10,18 @@ import promiseMiddleware from 'redux-promise';
 import ReduxThunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import reducer from './redux/reducers';
-//import {AppProvider} from './components/context'
+import { AppProvider } from './components/context'
+
 
 const middleware = applyMiddleware(promiseMiddleware, ReduxThunk);
 
 ReactDOM.render(
+  <AppProvider>
   <Provider store={createStore(reducer, composeWithDevTools(middleware))}>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </Provider>,
+  </Provider>
+  </AppProvider>,
   document.getElementById('root'),
 );

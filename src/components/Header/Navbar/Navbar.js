@@ -5,9 +5,7 @@ const Navbar = () => (
   <div>
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark mdb-color darken-2 scrolling-navbar">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          <strong>Travel Agency</strong>
-        </Link>
+        
 
         <button
           className="navbar-toggler"
@@ -22,24 +20,6 @@ const Navbar = () => (
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <Link className="nav-link" to="/">
-                Home
-                <span className="sr-only">(current)</span>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/add">
-                Add Tours
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">
-                About Us
-              </Link>
-            </li>
-          </ul>
 
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
