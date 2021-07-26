@@ -18,8 +18,10 @@ header{
     background-color:#2999BC;
     display: flex;
     justify-content: flex-start;
-    padding: 8px;;
-    height: 60px;
+    padding: 10px;;
+    height: 72px;
+    /* position:sticky; */
+    /* width: 100%; */
 }
 header a{
     color:inherit;
@@ -56,12 +58,13 @@ header p{
     margin: auto;
     padding: 0;
     height: 60px;
-    width: 100%;
+    width: 250%;
 }
 .social-list__item{
     margin:.25em .50em;
     color:white;
     height: 50px;
+    padding-right: 30%;
 }
 .img-header {
     /*margin:auto;*/

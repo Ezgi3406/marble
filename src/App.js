@@ -1,27 +1,25 @@
-import React from 'react'
-import Navbar from './Navbar'
-//import Hero from './Hero'
-// import Sidebar from './Sidebar'
-import Submenu from './Submenu'
-import Home from './Home'
-import Footer from './Footer'
-import Header from './components/Header/Header'
+import React, { Component } from 'react';
+import Home from './components/Home'
+import Footer from './components/Footer'
+import Istanbul from './components/pages/Istanbul'
 
 
-
+import { BrowserRouter as Router , Route } from "react-router-dom";
+import {Switch} from 'react-router-dom'
+import About from './components/pages/About';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      {/* <Sidebar/> */}
-      <Navbar/>
-      <Home/>
-      {/* <Hero/> */}
-      <Submenu/>
-      <Footer/>
-      </div>
-    
+    <Router>  
+      <Switch>
+      <Route exact path="/" component={Home} />  
+      <Route exact path="/Istanbul" component={Istanbul} /> 
+      <Route exact path="/About" component={About} />
+      </Switch>
+       <Footer/>
+  </Router>  
+
+  
   )
 }
 
