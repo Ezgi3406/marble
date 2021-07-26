@@ -3,6 +3,7 @@ import {FaInstagram,FaFacebookSquare,FaTwitter,FaSignInAlt}from 'react-icons/fa'
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import { Image, Container, Row, Col } from "react-bootstrap";
 import './Header.css'
+import Navbar from './Navbar/Navbar'
 
 export default class Header extends Component {
     render() {
@@ -11,7 +12,7 @@ export default class Header extends Component {
           <header  >
           <ul class="social-list-left H6">
           <li class="social-list__item"><a class="social-list__link" href="/"><img class="img-header" src="https://cdn.goadventureturkey.com/goturkey/static/images/turkiye-dark.svg"/></a></li></ul>
-          
+          <Navbar></Navbar>
           {/* <ul className="social-list" >
               <li title="Sign in" className="social-list__item"><a className="social-list__link" href=""><FaSignInAlt/> SIGN IN</a></li>
                */}
