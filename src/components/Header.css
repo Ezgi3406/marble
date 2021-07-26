@@ -20,14 +20,14 @@ header{
     justify-content: flex-start;
     padding: 10px;;
     height: 72px;
-    position:sticky;
-    width: 120%px;
+    /* position:sticky; */
+    /* width: 100%; */
 }
 header a{
     color:inherit;
     text-decoration: none;
     font-family: var(--ff-tertiary);
-    font-size: 13px;
+    font-size: 14px;
 }
 header p{
     font-weight: var(--fw-bold)
@@ -48,7 +48,7 @@ header p{
     display: flex;
     justify-content:flex-end;
     margin: 1.5em 0 1;
-    padding-right: 30%;
+    padding-right: 5%;
     width: 50%;
 }
 .social-list-left{
@@ -58,7 +58,7 @@ header p{
     margin: auto;
     padding: 0;
     height: 60px;
-    width: 200%;
+    width: 250%;
 }
 .social-list__item{
     margin:.25em .50em;
@@ -67,9 +67,9 @@ header p{
     padding-right: 30%;
 }
 .img-header {
-    margin:auto;
-    height: 55px;
-    width: 100%;
-    padding-right: 80%;
+    /* margin:auto; */
+    height: 80px;
+    width: 50%;
+    /* padding-right: 80%; */
 }
 /**/
