@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //import { Link } from 'react-router-dom';
 import { Jumbotron,Row, Col, Image, Carousel,Container  } from 'react-bootstrap';
 import './Home.css';
-import Header from './Header';
+import Header from '../components/Header/Header';
 import Navbar from './Navbar'
 import Submenu from './Submenu'
 export default class Home extends Component {

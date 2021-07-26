@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
-import Header from "../Header";
+import Header from "../../components/Header/Header";
 import "./istanbul.css";
 export default class Home extends Component {
   render() {

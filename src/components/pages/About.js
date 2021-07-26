@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {Container,Col,Image,Button, Row} from 'react-bootstrap';
 import './about.css'
-import Header from "../Header";
+import Header from "../../components/Header/Header";
 
 export default class About extends Component{
     render(){
