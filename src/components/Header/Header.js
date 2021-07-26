@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {FaInstagram,FaFacebookSquare,FaTwitter,FaSignInAlt}from 'react-icons/fa'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css'
+//import Signin from './SignIn'
+import Navbar from './Navbar/Navbar'
 
 export default class Header extends Component {
     render() {
@@ -12,8 +14,8 @@ export default class Header extends Component {
                 <li class="social-list__item"><a class="social-list__link" href=""><img class="img-header" src="https://cdn.goadventureturkey.com/goturkey/static/images/turkiye-dark.svg"/></a></li></ul>
                 
                 <ul class="social-list" >
-                    <li title="Sign in" style={{margin:".25em 1.75em"}} class="social-list__item"><a class="social-list__link" href=""><FaSignInAlt/> KAYIT OL</a></li>
-                    
+                    <li title="Sign in" style={{margin:".25em 1.75em"}} class="social-list__item"><a class="social-list__link" href=""><FaSignInAlt/> KAYIT OL </a></li>
+                    <Navbar/>
                     <li class="social-list__item"><a class="social-list__link" href=""><FaFacebookSquare/></a></li>
                     <li class="social-list__item"><a class="social-list__link" href=""><FaInstagram/></a></li>
                     <li class="social-list__item"><a class="social-list__link" href=""><FaTwitter/></a></li>

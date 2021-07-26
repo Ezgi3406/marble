@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 import Submenu from './Submenu'
 import Home from './Home'
 import Footer from './Footer'
-import Header from './Header'
+import Header from './components/Header/Header'
 
 
 
