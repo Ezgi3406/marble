@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //import { Link } from 'react-router-dom';
 import { Jumbotron,Row, Col, Image,Button, Carousel,Container  } from 'react-bootstrap';
 import './Home.css';
-import Header from '../components/Header/Header';
+//import Header from '../components/Header/Header';
 import Navbar from './Navbar'
 import Submenu from './Submenu'
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
      
       <Container >
-         <Header/>
+         {/*<Header/>*/}
          <Navbar/>
         <Submenu/>
          
