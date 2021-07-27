@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import {FaInstagram,FaFacebookSquare,FaTwitter,FaSignInAlt}from 'react-icons/fa'
 //import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Image, Container, Row, Col } from "react-bootstrap";
 import './Header.css'
+import Trlogo from '../images/turkiye-logo.svg'
 import Navbar from './Navbar/Navbar'
 
 export default class Header extends Component {
@@ -10,8 +12,8 @@ export default class Header extends Component {
         return (
           <div>
           <header  >
-          <ul class="social-list-left H6">
-          <li class="social-list__item"><a class="social-list__link" href="/"><img class="img-header" src="https://cdn.goadventureturkey.com/goturkey/static/images/turkiye-dark.svg"/></a></li></ul>
+          <ul class="social-list-left">
+          <li class="social-list__item"><a class="social-list__link" href="/"><img className="img-header" alt="coding" src={Trlogo}/></a></li></ul>
           <Navbar></Navbar>
           {/* <ul className="social-list" >
               <li title="Sign in" className="social-list__item"><a className="social-list__link" href=""><FaSignInAlt/> SIGN IN</a></li>

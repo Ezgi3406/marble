@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import logo from './images/bluemarble.png'
+import logo from './images/bluemarble1.png'
 import { FaBars, FaSearch } from 'react-icons/fa'
 import {useGlobalContext} from './context'
 import { Link } from 'react-router-dom';

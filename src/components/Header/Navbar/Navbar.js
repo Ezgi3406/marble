@@ -6,7 +6,7 @@ const Navbar = () => (
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark mdb-color darken-2 scrolling-navbar">
       <div className="container">
         
-
+ 
         <button
           className="navbar-toggler"
           type="button"
