@@ -13,21 +13,21 @@ import Footer from './components/Footer'
 
 
 const Routes = () => (
-    <div>
-      <Layout>
-        <Switch>
-          {/*<Route path="/" exact component={Auth(Home, null)} />*/}
-          <Route path="/register" exact component={Auth(Register, null)} />
-          <Route path="/login" exact component={Auth(Login, false)} />
-          <Route path="/profile" exact component={Auth(Profile, true)} />
-          <Route path="/logout" exact component={Auth(Logout, true)} />
-          <Route exact path="/" component={Home} />  
-      <Route exact path="/Istanbul" component={Istanbul} /> 
-      <Route exact path="/About" component={About} />
-        </Switch>
-        <Footer/>
-        </Layout>
-    </div>
-  );
+  <div>
+    <Layout>
+      <Switch>
+        {/*<Route path="/" exact component={Auth(Home, null)} />*/}
+        <Route path="/register" exact component={Auth(Register, null)} />
+        <Route path="/login" exact component={Auth(Login, false)} />
+        <Route path="/profile" exact component={Auth(Profile, true)} />
+        <Route path="/logout" exact component={Auth(Logout, true)} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Istanbul" component={Istanbul} />
+        <Route exact path="/About" component={About} />
+      </Switch>
+      <Footer />
+    </Layout>
+  </div>
+);
   
   export default Routes;
