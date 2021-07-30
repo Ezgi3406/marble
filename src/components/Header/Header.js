@@ -9,10 +9,35 @@ import Navbar from './Navbar/Navbar'
 export default class Header extends Component {
     render() {
         return (
-          <div>
-          <header  >
+         
           
+              
+            
+            
+          <header  >
           <Navbar></Navbar>
+          {/* <div style={{alignItems: 'center'}}>
+  <div className="header-language-selection">
+    <div className="header-language-selection-current">EN<span aria-label="icon-arrow-down" className="c-icon c-icon-small icon-arrow-down icon" role="img" /></div>
+    <div className="header-language-selection-dropdown">
+      <div className="header-language-selection-dropdown-list">
+        <li>English</li>
+        <li>Türkçe</li>
+        <li>русский язык</li>
+        <li>українська</li>
+        <li>العربية</li>
+        <li>Deutsch</li>
+        <li>español, castellano</li>
+        <li>français, langue française</li>
+        <li>中文 (Zhōngwén), 汉语, 漢語</li>
+        <li>فارسی</li>
+      </div>
+    </div>
+  </div>
+  <a href="https://goturkiye.com" className="header-goturkey-logo d-none-xs d-if-sm"><img src="https://cdn.goadventureturkey.com/goturkey/static/images/turkiye-dark.svg" alt /></a>
+</div>
+
+           */}
           {/* <ul className="social-list" >
               <li title="Sign in" className="social-list__item"><a className="social-list__link" href=""><FaSignInAlt/> SIGN IN</a></li>
                */}
@@ -20,8 +45,10 @@ export default class Header extends Component {
               <li class="social-list__item"><a class="social-list__link" href=""><FaInstagram/></a></li>
               <li class="social-list__item"><a class="social-list__link" href=""><FaTwitter/></a></li> */}
           {/* </ul> */}
+
           {/*<Container>
             <Row className="show-grid  ">
+
               <Col xs={12} sm={12} className="icons ">
                 <div className="social-icons">
                   <Image
@@ -42,10 +69,12 @@ export default class Header extends Component {
                   />
                 </div>
               </Col>
+
             </Row>
           </Container>
           */}</header>
       </div>
+
   )
 }
 }

@@ -33,7 +33,7 @@ const sublinks = [
       { label: 'ege', icon: <FaCoffee />, url: '/ege' },
       { label: 'ic anadolu', icon: <FaMosque />, url: '/icanadolu' },
       { label: 'dogu anadolu', icon: <FaSnowman />, url: '/doguanadolu' },
-      { label: 'karadeniz', icon: <FaFish />, url: '/karadeniz' },
+      { label: 'karadeniz', icon: <FaFish />, url: '/istanbul' },
     ],
   },
 ];

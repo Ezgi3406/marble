@@ -48,7 +48,10 @@ const Navbar = () => {
           </Link>
           
         </li>
+        <Link to="/About">
         <button className="btn signin-btn" onClick={displaySubMenu} ><FaSearch /></button>
+        </Link>
+
       </ul>
       
     </div>
