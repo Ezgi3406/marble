@@ -15,6 +15,7 @@ import Marmara from './components/pages/Marmara'
 
 
 const Routes = () => (
+
     <div>
       <Layout>
          {/* <Header/> */}
@@ -34,5 +35,6 @@ const Routes = () => (
         </Layout>
     </div>
   );
+
   
   export default Routes;

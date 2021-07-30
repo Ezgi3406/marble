@@ -32,17 +32,7 @@ header a{
 header p{
     font-weight: var(--fw-bold)
 }
-.footer__link{
-    font-weight: var(--fw-reg);
-}
-.footer__link:hover,
-.social-list__link:hover{
-    opacity: .2;
-    color:yellow;
-}
-.footer__link:hover{
-    text-decoration: underline;
-}
+
 .social-list{
     list-style: none;
     display: flex;
@@ -67,9 +57,7 @@ header p{
     padding-right: 30%;
 }
 .img-header {
-    /*margin:auto;*/
-    height: 80%;
-    width: 50%;
-    /*padding-right: 80%;*/
+    height:50px;
+    display: block;
 }
 /**/

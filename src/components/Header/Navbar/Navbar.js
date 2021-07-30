@@ -1,12 +1,16 @@
 import React from 'react';
+import Trlogo from '../../images/turkiye-logo.svg'
 import { Link } from 'react-router-dom';
+import { Image, Container, Row, Col } from "react-bootstrap";
+import '../Header.css'
 
 const Navbar = () => (
   <div>
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark mdb-color darken-2 scrolling-navbar">
       <div className="container">
-        
-
+      <ul class="social-list-left">
+          <li class="social-list__item"><a class="social-list__link" href="/"><img className="img-header" alt="coding" src={Trlogo}/></a></li></ul>
+ 
         <button
           className="navbar-toggler"
           type="button"
@@ -22,18 +26,47 @@ const Navbar = () => (
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul className="navbar-nav mr-auto">
+            
             <li className="nav-item">
               <Link to="/register" className="nav-link">
-              <strong>Register</strong> 
+              <span style={{color:"black"}}>Register</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/login" className="nav-link">
-              <strong>LOGIN</strong> 
+
+                <span style={{color:"black"}}>Login</span>
               </Link>
             </li>
           </ul>
         </div>
+        {/*<Container>
+            <Row className="show-grid  ">
+              <Col xs={12} sm={12} className="icons ">
+                <div className="social-icons">
+                  <Image
+                    src="/assets/img/logo_facebook.png"
+                    className="social-icon"
+                  />
+                  <Image
+                    src="/assets/img/logo_twiter.png"
+                    className="social-icon"
+                  />
+                  <Image
+                    src="/assets/img/logo_google+.png"
+                    className="social-icon"
+                  />
+                  <Image
+                    src="/assets/img/logo_linkedin.png"
+                    className="social-icon"
+                  />
+                </div>
+              </Col>
+            </Row>
+        </Container>*/}
+          
+
+
       </div>
     </nav>
   </div>

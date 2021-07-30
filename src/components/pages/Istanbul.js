@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
-import Header from "../../components/Header/Header";
 import "./istanbul.css";
 export default class Home extends Component {
   render() {
     return (
       <div>
-          
         <div className="content-wrapper"
         ><Image src="/assets/img/services.jpg" />
           <h2 className="heading">Lovely Istanbul</h2>
