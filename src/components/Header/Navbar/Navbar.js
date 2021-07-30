@@ -24,12 +24,12 @@ const Navbar = () => (
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link to="/register" className="nav-link">
-                Register
+              <strong>Register</strong> 
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/login" className="nav-link">
-                Log In
+              <strong>LOGIN</strong> 
               </Link>
             </li>
           </ul>

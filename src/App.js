@@ -8,9 +8,8 @@ import {Switch} from 'react-router-dom'
 function App() {
   return (
     <div>
-      
     <Router>  
-    <Routes/>
+      <Routes/>
       <Switch>
       </Switch>
   </Router>  

@@ -8,7 +8,7 @@ export default class About extends Component{
     render(){
         return(
             <div>
-                  <Header/>
+                  
                 
                 <div className="content-wrapper">    
                     <Image src="/assets/img/about.jpg" />
