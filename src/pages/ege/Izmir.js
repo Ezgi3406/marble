@@ -1,23 +1,23 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
+
 import { Link } from 'react-router-dom';
-import "./denizli.css";
+import "./izmir.css";
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div className="content-wrapper">
           <Image src="/assets/img/services.jpg" />
-          <h2 className="heading">Lovely Denizli</h2>
+          <h2 className="heading">Lovely Izmir</h2>
           <h5 className="sub-heading">
-            With us you’ll find a perfect destination in Denizli.
+            With us you’ll find a perfect destination in Izmir.
           </h5>
         </div>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="http://localhost:3000/assets/img/places/keloglan-cave.jpg"
+              <Image src="http://localhost:3000/assets/img/places/cesme-2.jpg"
                 square
                 className="profile-pic"
               />
@@ -26,12 +26,11 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  When the sun heats unbearably, you can always choose to go to the cave of Keloğlan. It is one of the most beautiful and cold caves in Turkey. As long as you get into the cave, you will feel the cold immediately.
+                  The Çeşme district is a very popular summer resort, especially among residents of nearby İzmir, and includes historic sites such as a 16th-century castle and an old caravanserai. The white sandy beaches stretch lazily along a road lined with exquisitely built houses.
                 </p>
 
                 <p>
-                  {" "}
-                  <Link to="/KeloglanCave">
+                  <Link to="/Cesme">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -40,7 +39,7 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="http://localhost:3000/assets/img/places/hierapolis1.jpg"
+                src="http://localhost:3000/assets/img/places/ephesus1.jpg"
                 square
                 className="profile-pic"
               />
@@ -49,10 +48,10 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  The area of Hierapolis was exposed to be a place for many settlements for its abundant water sources. It is highly believed that the ancient city was built by the people of Pergamum. There had been a settlement existence here. 
+                  Foundation of the ancient city of Ephesus within the borders of Selçuk District goes back to 6000 BCE. The biggest temple dedicated to Artemis, the Artemision, of 6th century BCE was built at the skirts of Ayasuluk hill infront of the earliest harbour of the city.
                 </p>
                 <p>
-                  <Link to="/Hierapolis">
+                  <Link to="/Efes">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -61,7 +60,7 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="http://localhost:3000/assets/img/places/bosphorus-mosque.jpg"
+                src="http://localhost:3000/assets/img/places/kemeralti-bazaar.jpg"
                 square
                 className="profile-pic"
               />
@@ -70,12 +69,10 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation
+                  In the Kemaraltı Historical Bazaar you will find products from the skilled hands of İzmir that bring together the traces of the past with the texture of the present. They sometimes take you to the past and keep the history alive and sometimes reflect modernity.
                 </p>
                 <p>
-                  <Link to="/Bosphorus">
+                  <Link to="/Kemeralti">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -84,7 +81,7 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="http://localhost:3000/assets/img/places/pamukkale.jpg" style={{height:"274px"}}
+                src="http://localhost:3000/assets/img/places/kordon1.jpg"
                 square
                 className="profile-pic"
               />
@@ -93,10 +90,10 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Travertines of Pamukkale, with a fairytale look resembling a cloud field from afar, are one of the rare beauties where history and nature embrace. With its calcareous structure, snow-white color and the warmth of thermal water, they give an indescribable sense of texture
+                  With a beauty that inspired many songs, Kordon is a must-see place in İzmir. It’s one of the symbols of the city, where locals and visitors meet the Aegean Sea, watch the sunset or lay down on the grass and relax during summer and spring. 
                 </p>
                 <p>
-                  <Link to="/Pamukkale">
+                  <Link to="/Kordon">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
