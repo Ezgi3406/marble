@@ -14,11 +14,11 @@ import Marmara from './components/pages/Marmara'
 // import Header from './components/Header/Header';
 
 
+
 const Routes = () => (
 
     <div>
       <Layout>
-         {/* <Header/> */}
         <Switch>
          
           {/*<Route path="/" exact component={Auth(Home, null)} />*/}

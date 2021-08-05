@@ -14,14 +14,14 @@
     --bs:0.25em 0.25em 0.75em rgba(0,0,0,.25),
         0.125em 0.125em 0.25em rgba(0,0,0,.15)
 }
+
 header{
     background-color:#2999BC;
     display: flex;
-    justify-content: flex-start;
+    justify-content:flex-end;
     padding: 10px;;
     height: 72px;
-    /* position:sticky; */
-    /* width: 100%; */
+   position:static;
 }
 header a{
     color:inherit;
