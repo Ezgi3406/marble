@@ -13,7 +13,7 @@ export default class Header extends Component {
           
               
             
-            
+          <div>  
           <header  >
           <Navbar></Navbar>
           {/* <div style={{alignItems: 'center'}}>
@@ -72,7 +72,8 @@ export default class Header extends Component {
 
             </Row>
           </Container>
-          */}</header>
+          */}
+          </header>
       </div>
 
   )

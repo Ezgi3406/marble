@@ -11,6 +11,23 @@ import Istanbul from './components/pages/Istanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
 import Marmara from './components/pages/Marmara'
+import Ege from './pages/ege/Ege'
+import Izmir from './pages/ege/Izmir'
+import Mugla from './pages/ege/Mugla'
+import Denizli from './pages/ege/Denizli'
+import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
+import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
+import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
+import Pamukkale from './pages/ege/denizliplaces/Pamukkale'
+import Cesme from './pages/ege/izmirplaces/Cesme'
+import Efes from './pages/ege/izmirplaces/Efes'
+import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
+import Kordon from './pages/ege/izmirplaces/Kordon'
+import Bodrum from './pages/ege/muglaplaces/Bodrum'
+import Datca from './pages/ege/muglaplaces/Datca'
+import Fethiye from './pages/ege/muglaplaces/Fethiye'
+import Marmaris from './pages/ege/muglaplaces/Marmaris'
+
 // import Header from './components/Header/Header';
 
 
@@ -30,6 +47,22 @@ const Routes = () => (
           <Route exact path="/Istanbul" component={Istanbul} /> 
           <Route exact path="/About" component={About} />
           <Route exact path="/Marmara" component={Marmara} />
+          <Route exact path="/Ege" component={Ege} />
+          <Route exact path="/Izmir" component={Izmir} />
+          <Route exact path="/Mugla" component={Mugla} />
+          <Route exact path="/Denizli" component={Denizli} />
+          <Route exact path="/KeloglanCave" component={KeloglanCave} />
+          <Route exact path="/Hierapolis" component={Hierapolis} />
+          <Route exact path="/BosphorusMosque" component={BosphorusMosque} />
+          <Route exact path="/Pamukkale" component={Pamukkale} />
+          <Route exact path="/Cesme" component={Cesme} />
+          <Route exact path="/Efes" component={Efes} />
+          <Route exact path="/Kemeralti" component={Kemeralti} />
+          <Route exact path="Kordon" component={Kordon} />
+          <Route exact path="/Bodrum" component={Bodrum} />
+          <Route exact path="/Datca" component={Datca} />
+          <Route exact path="/Fethiye" component={Fethiye} />
+          <Route exact path="/Marmaris" component={Marmaris} />
         </Switch>
         <Footer/>
         </Layout>
