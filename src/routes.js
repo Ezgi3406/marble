@@ -11,6 +11,7 @@ import Istanbul from './components/pages/Istanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
 import Marmara from './components/pages/Marmara'
+import Karadeniz from './components/pages/Karadeniz'
 import Ege from './pages/ege/Ege'
 import Izmir from './pages/ege/Izmir'
 import Mugla from './pages/ege/Mugla'
@@ -30,7 +31,6 @@ import Marmaris from './pages/ege/muglaplaces/Marmaris'
 
 // import Header from './components/Header/Header';
 
-
 const Routes = () => (
 
     <div>
@@ -47,6 +47,7 @@ const Routes = () => (
           <Route exact path="/Istanbul" component={Istanbul} /> 
           <Route exact path="/About" component={About} />
           <Route exact path="/Marmara" component={Marmara} />
+          <Route exact path="/Karadeniz" component={Karadeniz} />
           <Route exact path="/Ege" component={Ege} />
           <Route exact path="/Izmir" component={Izmir} />
           <Route exact path="/Mugla" component={Mugla} />
