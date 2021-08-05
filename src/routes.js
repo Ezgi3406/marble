@@ -11,7 +11,7 @@ import Istanbul from './components/pages/Istanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
 import Marmara from './components/pages/Marmara'
-// import Header from './components/Header/Header';
+import Karadeniz from './components/pages/Karadeniz'
 
 
 const Routes = () => (
@@ -30,6 +30,7 @@ const Routes = () => (
           <Route exact path="/Istanbul" component={Istanbul} /> 
           <Route exact path="/About" component={About} />
           <Route exact path="/Marmara" component={Marmara} />
+          <Route exact path="/Karadeniz" component={Karadeniz} />
         </Switch>
         <Footer/>
         </Layout>
