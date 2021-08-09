@@ -28,6 +28,7 @@ import Bodrum from './pages/ege/muglaplaces/Bodrum'
 import Datca from './pages/ege/muglaplaces/Datca'
 import Fethiye from './pages/ege/muglaplaces/Fethiye'
 import Marmaris from './pages/ege/muglaplaces/Marmaris'
+import Doguanadolu from './components/pages/Doguanadolu'
 
 // import Header from './components/Header/Header';
 
@@ -64,6 +65,7 @@ const Routes = () => (
           <Route exact path="/Datca" component={Datca} />
           <Route exact path="/Fethiye" component={Fethiye} />
           <Route exact path="/Marmaris" component={Marmaris} />
+          <Route exact path="/Doguanadolu" component={Doguanadolu}/>
         </Switch>
         <Footer/>
         </Layout>
