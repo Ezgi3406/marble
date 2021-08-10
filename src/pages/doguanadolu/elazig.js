@@ -1,51 +1,37 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
 import Header from "../../components/Header/Header";
-import "./marmara.css";
+import "../../components/pages/marmara.css";
 import { Link } from 'react-router-dom';
 
-export default class Doguanadolu extends Component {
-  render() {
-    return (
-      <div>
-        <div className="content-wrapper">
-        <div class="video-wrapper">
-          <video
-              className="video-target"
-              autoPlay
-              style={{
+export default class elazıg extends Component {
+    render() {
+        return (
+            <div><div className="content-wrapper">
+                <Image src="https://cdn.goadventureturkey.com/elazig/kapali-carsi.jpg" style={{
                 filter: "contrast(1.04) brightness(0.91)",
-                width: "675px",
+                width: "630px",
+                height: "450px",
+                "margin-top": "30px",
+                "margin-right": "636px",
+              }}/>
+            {/*<Image src="https://cdn.goadventureturkey.com/elazig/1-keban-baraj-golu.jpg" style={{
+                filter: "contrast(1.04) brightness(0.91)",
+                width: "630px",
                 height: "450px",
                 "margin-top": "30px",
                 "margin-left": "636px",
-              }}
-              preload="none"
-              playsInline
-              muted
-              loop
-              data-poster
-            >
-              <source
-                src="https://cdn.goadventureturkey.com/eastern/dogu2.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-
-          <h2 className="heading">
-            <strong style={{
+              }}/>*/}
+            <h2 className="heading"><strong style={{
                 width: "675px",
                 height: "450px",
                 color:"black",
                 fontSize:"60px",
                 "margin-top": "30px",
-                "margin-right": "670px",
-              }}>DOĞU ANADOLU</strong>
-          </h2>
-          <h5 className="sub-heading"></h5>
-    </div>
+                "margin-left": "636px",
+              }}>ELAZIĞ</strong></h2>
+            
+          </div>
         
         <Container>
           <Row className="show-grid text-center">
@@ -142,7 +128,7 @@ export default class Doguanadolu extends Component {
             </Col>
           </Row>
         </Container>
-      </div>
-    );
-  }
+            </div>
+        )
+    }
 }

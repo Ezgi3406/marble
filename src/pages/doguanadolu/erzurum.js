@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class elazıg extends Component {
+export default class erzurum extends Component {
     render() {
         return (
             <div>
