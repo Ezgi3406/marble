@@ -24,6 +24,15 @@ import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
+import Bodrum from './pages/ege/muglaplaces/Bodrum'
+import Datca from './pages/ege/muglaplaces/Datca'
+import Fethiye from './pages/ege/muglaplaces/Fethiye'
+import Marmaris from './pages/ege/muglaplaces/Marmaris'
+import Doguanadolu from './components/pages/Doguanadolu'
+import Elazig from './pages/doguanadolu/elazig'
+import Erzurum from './pages/doguanadolu/erzurum'
+import Agri from './pages/doguanadolu/agri'
+import Van from './pages/doguanadolu/van'
 import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
 import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
 import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
@@ -33,7 +42,6 @@ import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
 import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
 import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
 import Tralleis from './pages/ege/aydinplaces/Tralleis'
-
 
 // import Header from './components/Header/Header';
 
@@ -66,6 +74,15 @@ const Routes = () => (
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
+          <Route exact path="/Bodrum" component={Bodrum} />
+          <Route exact path="/Datca" component={Datca} />
+          <Route exact path="/Fethiye" component={Fethiye} />
+          <Route exact path="/Marmaris" component={Marmaris} />
+          <Route exact path="/Doguanadolu" component={Doguanadolu}/>
+          <Route exact path="/Doguanadolu/Elazig" component={Elazig}/>
+          <Route exact path="/Doguanadolu/Erzurum" component={Erzurum}/>
+          <Route exact path="/Doguanadolu/Van" component={Van}/>
+          <Route exact path="/Doguanadolu/Agri" component={Agri}/>
           <Route exact path="/BodrumKalesi" component={BodrumKalesi} />
           <Route exact path="/Iztuzu" component={Iztuzu} />
           <Route exact path="/YassicaAdalari" component={YassicaAdalari} />
