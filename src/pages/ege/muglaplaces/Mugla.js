@@ -1,36 +1,60 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
-import { Link } from 'react-router-dom';
-import "../../ege/ege.css";
+import { Link } from "react-router-dom";
+import "./ege.css";
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div className="content-wrapper">
-          <Image src="/assets/img/services.jpg" />
-          <h2 className="heading">Lovely Mugla</h2>
-          <h5 className="sub-heading">
+          <div classname="video-wrapper">
+            <video
+              classname="video-target"
+              autoPlay
+              style={{
+                filter: "contrast(1.04) brightness(0.91)",
+                width: "1350px",
+                height: "400px",
+                "margin-top": "1px",
+              }}
+              preload="none"
+              playsInline
+              muted
+              loop
+              data-poster
+            >
+              <source
+                src="https://cdn.goadventureturkey.com/mugla/mugla2.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <h2 className="heading">MUĞLA</h2>
+            {/* <h5 className="sub-heading">
             With us you’ll find a perfect destination in Mugla.
-          </h5>
+          </h5> */}
+          </div>
         </div>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="https://cdn.goadventureturkey.com/goturkey/4-bodrum.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/BodrumKalesi">
+                <Image
+                  style={{ height: "244px" }}
+                  src="http://localhost:3000/assets/img/places/Bodrumkalesi.jpg"
+                  square
+                  className="profile-pic"
+                />
+              </Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Bodrum is world renowned as a paradise for tourists featuring charming neighbourhoods, various ancient sites, exquisite bays, turquoise sea, mild Mediterranean climate, modern transportation.
+                  Bodrum Kalesi hiç şüphesiz Bodrum’un en önemli ikonu. Deniz kenarında yılları, dalgaları dimdik göğüsleyen kale Bodrum’da gezilecek yerlerin ve Bodrum’un en güzel manzaralarının liste başında bulunuyor.
                 </p>
 
                 <p>
-                  <Link to="/Bodrum">
+                  <Link to="/BodrumKalesi">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -38,20 +62,22 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="https://cdn.goadventureturkey.com/goturkey/datca.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Iztuzu">
+                <Image
+                  src="http://localhost:3000/assets/img/places/iztuzu1.jpg"
+                  square
+                  className="profile-pic"
+                />
+              </Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Datça has pristine beaches and hidden coves, pine-crested hills, olive and almond groves, quaint villages filled with stone houses, and most importantly, a slow and peaceful existence.
+                  Altın sarısı rengindeki kumuyla İztuzu Plajı`nın bir tarafında tatlı su, diğer tarafında tuzlu su bulunması nedeniyle dünyadaki eşsiz plajlardandır ve burada insanlar ile caretta carettalar barış içinde yaşamlarını sürdürmektedirler.
                 </p>
                 <p>
-                  <Link to="/Datca">
+                  <Link to="/Iztuzu">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -59,20 +85,22 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="http://localhost:3000/assets/img/places/fethiye-2.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Saklikent">
+                <Image
+                  src="http://localhost:3000/assets/img/places/saklikent.jpg"
+                  square
+                  className="profile-pic"
+                />
+              </Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Fethiye With its postcard-worthy backdrop of golden sands, forested mountains, and miles of azure ocean. The town itself is equally attractive, with leafy seafront promenades, bazaars and ancient ruins.
+                  Muğla ve Antalya arasındaki sınırı oluşturan Saklıkent Kanyonu’na da bir gün ayırmanızı öneririz. Kanyon;  yaklaşık 18 kilometre uzunluğu, 200 metreyi bulabilen yüksekliği, daracık geçişleri, etrafına kurulmuş köyleri ile çok özel bir yer.
                 </p>
                 <p>
-                  <Link to="/Fethiye">
+                  <Link to="/Saklikent">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -80,20 +108,22 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="https://cdn.goadventureturkey.com/goturkey/2-marmaris.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/YassicaAdalari">
+                <Image style={{ height: "244px" }}
+                  src="http://localhost:3000/assets/img/places/fethiye-yassica-islands.jpg"
+                  square
+                  className="profile-pic"
+                />
+              </Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Marmaris is where the Mediterranean meets the Aegean, where green verdant forests meet the famous turquoise waters of the sea, and where modern culture meets ancient civilizations.
+                  Yassıcalar denilen bu adaların tek tek adları bile yok. Büyükçe olanının denize uzanan kumsallı burnunun ucunda küçücük bir havuzcuk oluşuyor. Burada adalar arasında yüzme macerasını da korkmadan deneyebilirsiniz. 
                 </p>
                 <p>
-                  <Link to="/Marmaris">
+                  <Link to="/YassicaAdalari">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>

@@ -31,7 +31,7 @@ const sublinks = [
       { label: 'marmara', icon: <FaWater />, url: '/marmara' },
       { label: 'akdeniz', icon: <FaTree />, url: '/akdeniz' },
       { label: 'ege', icon: <FaCoffee />, url: '/ege' },
-      { label: 'ic anadolu', icon: <FaMosque />, url: '/icanadolu' },
+      { label: 'ic anadolu', icon: <FaMosque />, url: '/IcAnadolu' },
       { label: 'dogu anadolu', icon: <FaSnowman />, url: '/doguanadolu' },
       { label: 'karadeniz', icon: <FaFish />, url: '/karadeniz' },
     ],

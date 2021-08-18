@@ -2,25 +2,50 @@ import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 
 import { Link } from 'react-router-dom';
-import "../../ege/ege.css";
+import "./ege.css";
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div className="content-wrapper">
-          <Image src="/assets/img/services.jpg" />
-          <h2 className="heading">Lovely Izmir</h2>
-          <h5 className="sub-heading">
+        <div classname="video-wrapper">
+            <video
+              classname="video-target"
+              autoPlay
+              style={{
+                filter: "contrast(1.04) brightness(0.91)",
+                width: "1350px",
+                height: "400px",
+                "margin-top": "1px",
+              }}
+              preload="none"
+              playsInline
+              muted
+              loop
+              data-poster
+            >
+              <source
+                src="https://cdn.goadventureturkey.com/izmir/izmir-pc.mp4"
+                type="video/mp4"
+              />
+            </video>
+          {/* <Image src="/assets/img/services.jpg" /> */}
+          
+          <h2 className="heading">İZMİR</h2>
+          {/* <h5 className="sub-heading">
             With us you’ll find a perfect destination in Izmir.
-          </h5>
+          </h5> */}
+        </div>
         </div>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
-              <Image src="http://localhost:3000/assets/img/places/cesme-2.jpg"
+            <Link to="/Alacati">
+              <Image src="http://localhost:3000/assets/img/places/alacatı2.jpg"
                 square
                 className="profile-pic"
               />
+              </Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
@@ -30,7 +55,7 @@ export default class Home extends Component {
                 </p>
 
                 <p>
-                  <Link to="/Cesme">
+                  <Link to="/Alacati">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -38,20 +63,22 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Efes">
               <Image
                 src="http://localhost:3000/assets/img/places/ephesus1.jpg"
                 square
                 className="profile-pic"
               />
+              </Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Foundation of the ancient city of Ephesus within the borders of Selçuk District goes back to 6000 BCE. The biggest temple dedicated to Artemis, the Artemision, of 6th century BCE was built at the skirts of Ayasuluk hill infront of the earliest harbour of the city.
+                  Foundation of the ancient city of Ephesus within the borders of Selçuk District goes back to  <Link to="/Efes"></Link>6000 BCE. The biggest temple dedicated to Artemis, the Artemision, of 6th century BCE was built at the skirts of Ayasuluk hill infront of the earliest harbour of the city.
                 </p>
                 <p>
-                  <Link to="/Efes">
+                <Link to="/Efes">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -59,11 +86,13 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Kemeralti">
               <Image
                 src="http://localhost:3000/assets/img/places/kemeralti-bazaar.jpg"
                 square
                 className="profile-pic"
               />
+              </Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
@@ -80,11 +109,13 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Kordon">
               <Image
                 src="http://localhost:3000/assets/img/places/kordon1.jpg"
                 square
                 className="profile-pic"
               />
+              </Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>
