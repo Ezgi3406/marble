@@ -1,6 +1,5 @@
 .content-wrapper{
     width: 100%;
-    
     position: relative;
     margin-bottom: 2%;
 }
@@ -57,3 +56,23 @@ h5 {
     width: 100%;
 }
 
+.body{
+    background-color:#B6EFD4;
+}
+
+.button{
+    border-radius: 12px;
+}
+
+.paragraph2{
+    /* padding-top: 10px; */
+}
+
+.paragraph {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    /* border:3px solid green; */
+    padding: 5px;
+    color: #494949
+}
