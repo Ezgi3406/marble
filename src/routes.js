@@ -28,6 +28,28 @@ import Bodrum from './pages/ege/muglaplaces/Bodrum'
 import Datca from './pages/ege/muglaplaces/Datca'
 import Fethiye from './pages/ege/muglaplaces/Fethiye'
 import Marmaris from './pages/ege/muglaplaces/Marmaris'
+import Bolu from './pages/karadeniz/Bolu'
+import Abant from './pages/karadeniz/boluplaces/Abant'
+import Mudurnu from './pages/karadeniz/boluplaces/Mudurnu'
+import Seben from './pages/karadeniz/boluplaces/Seben'
+import Yedigoller from './pages/karadeniz/boluplaces/Yedigoller'
+import Giresun from './pages/karadeniz/Giresun'
+import Giresunadasi from './pages/karadeniz/giresunplaces/Giresunadasi'
+import Kumbet from './pages/karadeniz/giresunplaces/Kumbet'
+import Mavigol from './pages/karadeniz/giresunplaces/Mavigol'
+import Zeytinlik from './pages/karadeniz/giresunplaces/Zeytinlik'
+import Kastamonu from './pages/karadeniz/Kastamonu'
+import Carsi from './pages/karadeniz/kastamonuplaces/Carsi'
+import Etnografya from './pages/karadeniz/kastamonuplaces/Etnografya'
+import Ilgaz from './pages/karadeniz/kastamonuplaces/Ilgaz'
+import Kale from './pages/karadeniz/kastamonuplaces/Kale'
+import Trabzon from './pages/karadeniz/Trabzon'
+import Ataturk from './pages/karadeniz/trabzonplaces/Ataturk'
+import Gulbahar from './pages/karadeniz/trabzonplaces/Gulbahar'
+import Sumela from './pages/karadeniz/trabzonplaces/Sumela'
+import Uzungol from './pages/karadeniz/trabzonplaces/Uzungol'
+
+
 
 // import Header from './components/Header/Header';
 
@@ -64,6 +86,26 @@ const Routes = () => (
           <Route exact path="/Datca" component={Datca} />
           <Route exact path="/Fethiye" component={Fethiye} />
           <Route exact path="/Marmaris" component={Marmaris} />
+          <Route exact path="/Karadeniz/Bolu" component={Bolu} />
+          <Route exact path="/Karadeniz/Bolu/Abant" component={Abant} />
+          <Route exact path="/Karadeniz/Bolu/Mudurnu" component={Mudurnu} />
+          <Route exact path="/Karadeniz/Bolu/Seben" component={Seben} />
+          <Route exact path="/Karadeniz/Bolu/Yedigoller" component={Yedigoller} />
+          <Route exact path="/Karadeniz/Giresun" component={Giresun} />
+          <Route exact path="/Karadeniz/Giresun/Giresunadasi" component={Giresunadasi} />
+          <Route exact path="/Karadeniz/Giresun/Kumbet" component={Kumbet} />
+          <Route exact path="/Karadeniz/Giresun/Mavigol" component={Mavigol} />
+          <Route exact path="/Karadeniz/Giresun/Zeytinlik" component={Zeytinlik} />
+          <Route exact path="/Karadeniz/Kastamonu" component={Kastamonu} />
+          <Route exact path="/Karadeniz/Kastamonu/Carsi" component={Carsi} />
+          <Route exact path="/Karadeniz/Kastamonu/Etnografya" component={Etnografya} />
+          <Route exact path="/Karadeniz/Kastamonu/Ilgaz" component={Ilgaz} />
+          <Route exact path="/Karadeniz/Kastamonu/Kale" component={Kale} />
+          <Route exact path="/Karadeniz/Trabzon" component={Trabzon} />
+          <Route exact path="/Karadeniz/Trabzon/Ataturk" component={Ataturk} />
+          <Route exact path="/Karadeniz/Trabzon/Gulbahar" component={Gulbahar} />
+          <Route exact path="/Karadeniz/Trabzon/Sumela" component={Sumela} />
+          <Route exact path="/Karadeniz/Trabzon/Uzungol" component={Uzungol} />
         </Switch>
         <Footer/>
         </Layout>
