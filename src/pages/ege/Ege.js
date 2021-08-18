@@ -53,10 +53,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  "Beautiful İzmir" draws you into a world of picturesque
-                  modernity and traditions, with its refreshing touches to human
-                  souls. İzmir hypnotizes visitors in an aura of history and
-                  modernity.It is one of the oldest cities for 8500 years.
+                  Türkiye’nin batısında yer alan ve Ege’nin incisi olarak kabul edilen İzmir her yıl 1 milyonun üzerinde turisti ağırlamaktadır. Herkesi kendine hayran bırakan bir atmosfere sahip olan İzmir Türkiye’de yaşanılası bir bölge olarak görülmektedir ve ziyaretçilerine birçok gezilip görülecek yer ve birçok aktivite sunmaktadir.
                 </p>
 
                 <p>
@@ -81,10 +78,9 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Muğla, which connects the Aegean and Mediterranean seas with
-                  its turquoise waters and virgin bays, is waiting to be
-                  explored. It is like a hidden paradise, where the sun, blue
-                  and green are intertwined, shedding light on the history.
+                  Ülkemizin en gözde tatil noktalarından olan Muğla her yıl binlerce turisti ağırlamaktadır. Özellikle ilçelerinde bulunan doğal güzellikleri, tarihi noktaları ve canlı hayatı ile tatilcileri kendine çeken şehir yaz aylarında yoğun bir ilgi görmektedir ve
+                  Doğal güzellikleri ile birlikte gezilecek birçok yere sahiptir. 
+                 
                 </p>
                 <p>
                   <Link to="/Mugla">
@@ -94,7 +90,7 @@ export default class Home extends Component {
               </>
             </Col>
 
-            <Col xs={12} sm={3} className="person-wrapper">
+            <Col xs={12} sm={3} className="pe      rson-wrapper">
               <Link to="/Denizli">
                 <Image
                   src="http://localhost:3000/assets/img/places/denizli1.jpg"
@@ -107,10 +103,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  "Located at the crossroads of Anatolia, where the Aegean,
-                  Central Anatolia and Mediterranean Regions meet, Denizli has
-                  hosted many civilizations throughout history with its
-                  geographical location and natural beauties."
+                  Denizli, tarihi ve doğal güzellikleri ile gezilip görülmesi gereken turizm yerlerinden biridir. Eski çağlara kadar dayanan tarihi birikimi şehrin kültürel dokusunu etkilediği kadar turistik yerlerin yapısını da etkilemiştir. Birçok medeniyete ev sahipliği yapmış olan Denizli bu medeniyetlerin izini taşımaktadır.
                 </p>
                 <p>
                   {" "}
@@ -134,9 +127,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation
+                  Ege Bölgesi'nde yer alan Aydın'ın verimli topraklarından dolayı asırlar boyunca farklı uygarlıklar burada yaşamını sürdürmüştür. Antik kentlerin içerisinde filozoflar ve bilim adamları çalışmaları sürdürmüş ve ticaret merkezi olarak bilinen bu şehri uzun yıllar boyunca farklı ülkeler tarafından ele geçirilmek için savaş vermiştir. 
                 </p>
                 <p>
                   <Link to="/Aydin">
