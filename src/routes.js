@@ -20,7 +20,7 @@ import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
 import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
 import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
 import Pamukkale from './pages/ege/denizliplaces/Pamukkale'
-import Cesme from './pages/ege/izmirplaces/Cesme'
+import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
@@ -49,6 +49,15 @@ import AkdamarIsland from './pages/doguanadolu/Van-yerler/akdamarIsland'
 import HosapCastle from './pages/doguanadolu/Van-yerler/hosapCastle'
 import Travertines from './pages/doguanadolu/Van-yerler/travertines'
 import VanMuseum from './pages/doguanadolu/Van-yerler/vanMuseum'
+import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
+import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
+import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
+import Saklikent from './pages/ege/muglaplaces/Saklikent'
+import Aydin from './pages/ege/Aydin'
+import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
+import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
+import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
+import Tralleis from './pages/ege/aydinplaces/Tralleis'
 
 // import Header from './components/Header/Header';
 
@@ -77,7 +86,7 @@ const Routes = () => (
           <Route exact path="/Hierapolis" component={Hierapolis} />
           <Route exact path="/BosphorusMosque" component={BosphorusMosque} />
           <Route exact path="/Pamukkale" component={Pamukkale} />
-          <Route exact path="/Cesme" component={Cesme} />
+          <Route exact path="/Alacati" component={Alacati} />
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
@@ -105,7 +114,16 @@ const Routes = () => (
           <Route exact path="/Doguanadolu/Agri/Agri-Mountain" component={AgriMountain}/>
           <Route exact path="/Doguanadolu/Agri/Ishak-Pasa-Palace" component={IshakPasaPalace}/>
           <Route exact path="/Doguanadolu/Agri/Meya-Cayes" component={MeyaCaves}/>
-          <Route exact path="/Doguanadolu/Agri/Trail-Noahs-Ark" component={TrailNoahsArk}/>
+          <Route exact path="/Doguanadolu/Agri/Trail-Noahs-Ark" component={TrailNoahsArk}
+          <Route exact path="/BodrumKalesi" component={BodrumKalesi} />
+          <Route exact path="/Iztuzu" component={Iztuzu} />
+          <Route exact path="/YassicaAdalari" component={YassicaAdalari} />
+          <Route exact path="/Saklikent" component={Saklikent} />
+          <Route exact path="/Aydin" component={Aydin} />
+          <Route exact path="/BafaGolu" component={BafaGolu} />
+          <Route exact path="/Tralleis" component={Tralleis} />
+          <Route exact path="/DidimMarina" component={DidimMarina} />
+          <Route exact path="/Guvercinada" component={Guvercinada} />
         </Switch>
         <Footer/>
         </Layout>
