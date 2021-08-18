@@ -40,30 +40,7 @@ const Navbar = () => (
             </li>
           </ul>
         </div>
-        {/*<Container>
-            <Row className="show-grid  ">
-              <Col xs={12} sm={12} className="icons ">
-                <div className="social-icons">
-                  <Image
-                    src="/assets/img/logo_facebook.png"
-                    className="social-icon"
-                  />
-                  <Image
-                    src="/assets/img/logo_twiter.png"
-                    className="social-icon"
-                  />
-                  <Image
-                    src="/assets/img/logo_google+.png"
-                    className="social-icon"
-                  />
-                  <Image
-                    src="/assets/img/logo_linkedin.png"
-                    className="social-icon"
-                  />
-                </div>
-              </Col>
-            </Row>
-        </Container>*/}
+       
           
 
 

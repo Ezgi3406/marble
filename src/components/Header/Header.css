@@ -19,8 +19,8 @@ header{
     background-color:#2999BC;
     display: flex;
     justify-content:flex-end;
-    padding: 10px;;
-    height: 72px;
+    padding: 15px;;
+    height: 70px;
    position:static;
 }
 header a{
@@ -60,4 +60,13 @@ header p{
     height:50px;
     display: block;
 }
-/**/
+/* .fixed-header{
+    width: 100%;
+    position: fixed;        
+    padding: 0px 0;
+    color: #fff;
+    height: 120px;
+} */
+/* .fixed-header{
+    top: 0;
+} */
