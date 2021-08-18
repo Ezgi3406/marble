@@ -20,7 +20,7 @@ import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
 import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
 import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
 import Pamukkale from './pages/ege/denizliplaces/Pamukkale'
-import Cesme from './pages/ege/izmirplaces/Cesme'
+import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
@@ -33,6 +33,15 @@ import Elazig from './pages/doguanadolu/elazig'
 import Erzurum from './pages/doguanadolu/erzurum'
 import Agri from './pages/doguanadolu/agri'
 import Van from './pages/doguanadolu/van'
+import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
+import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
+import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
+import Saklikent from './pages/ege/muglaplaces/Saklikent'
+import Aydin from './pages/ege/Aydin'
+import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
+import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
+import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
+import Tralleis from './pages/ege/aydinplaces/Tralleis'
 
 // import Header from './components/Header/Header';
 
@@ -61,7 +70,7 @@ const Routes = () => (
           <Route exact path="/Hierapolis" component={Hierapolis} />
           <Route exact path="/BosphorusMosque" component={BosphorusMosque} />
           <Route exact path="/Pamukkale" component={Pamukkale} />
-          <Route exact path="/Cesme" component={Cesme} />
+          <Route exact path="/Alacati" component={Alacati} />
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
@@ -74,6 +83,15 @@ const Routes = () => (
           <Route exact path="/Doguanadolu/Erzurum" component={Erzurum}/>
           <Route exact path="/Doguanadolu/Van" component={Van}/>
           <Route exact path="/Doguanadolu/Agri" component={Agri}/>
+          <Route exact path="/BodrumKalesi" component={BodrumKalesi} />
+          <Route exact path="/Iztuzu" component={Iztuzu} />
+          <Route exact path="/YassicaAdalari" component={YassicaAdalari} />
+          <Route exact path="/Saklikent" component={Saklikent} />
+          <Route exact path="/Aydin" component={Aydin} />
+          <Route exact path="/BafaGolu" component={BafaGolu} />
+          <Route exact path="/Tralleis" component={Tralleis} />
+          <Route exact path="/DidimMarina" component={DidimMarina} />
+          <Route exact path="/Guvercinada" component={Guvercinada} />
         </Switch>
         <Footer/>
         </Layout>
