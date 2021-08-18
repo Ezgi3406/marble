@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../ege/ege.css";
+import "../../../pages/pages.css";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 
 

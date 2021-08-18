@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
 import { Link } from 'react-router-dom';
-import "./marmara.css"
+import "../../pages/pages.css"
 export default class Home extends Component {
   render() {
     return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
-import '../../../components/pages/Marmara'
+import '../../../pages/pages.css'
 
 
 export default class ankara extends Component {
