@@ -20,7 +20,7 @@ import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
 import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
 import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
 import Pamukkale from './pages/ege/denizliplaces/Pamukkale'
-import Cesme from './pages/ege/izmirplaces/Cesme'
+import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
@@ -48,8 +48,36 @@ import Ataturk from './pages/karadeniz/trabzonplaces/Ataturk'
 import Gulbahar from './pages/karadeniz/trabzonplaces/Gulbahar'
 import Sumela from './pages/karadeniz/trabzonplaces/Sumela'
 import Uzungol from './pages/karadeniz/trabzonplaces/Uzungol'
-
-
+import Doguanadolu from './components/pages/Doguanadolu'
+import Elazig from './pages/doguanadolu/elazig'
+import HarputCastle from './pages/doguanadolu/Elazig-yerler/harputCastle'
+import KebanDam from './pages/doguanadolu/Elazig-yerler/kebanDam'
+import SaklikapiCanyon from './pages/doguanadolu/Elazig-yerler/saklikapiCanyon'
+import SefikGulCultureHouse from './pages/doguanadolu/Elazig-yerler/sefikGulCultureHouse'
+import Erzurum from './pages/doguanadolu/erzurum'
+import AtaturkMuseum from './pages/doguanadolu/Erzurum-yerler/ataturkMuseum'
+import LakeTortum from './pages/doguanadolu/Erzurum-yerler/lakeTortum'
+import Palandoken from './pages/doguanadolu/Erzurum-yerler/palandoken'
+import TwinMinaretMedrese from './pages/doguanadolu/Erzurum-yerler/twinMinaretMedrese'
+import Agri from './pages/doguanadolu/agri'
+import AgriMountain from './pages/doguanadolu/Agri-yerler/agriMountain'
+import IshakPasaPalace from './pages/doguanadolu/Agri-yerler/ishakPasaPalace'
+import MeyaCaves from './pages/doguanadolu/Agri-yerler/meyaCaves'
+import TrailNoahsArk from './pages/doguanadolu/Agri-yerler/trailNoahsArk'
+import Van from './pages/doguanadolu/van'
+import AkdamarIsland from './pages/doguanadolu/Van-yerler/akdamarIsland'
+import HosapCastle from './pages/doguanadolu/Van-yerler/hosapCastle'
+import Travertines from './pages/doguanadolu/Van-yerler/travertines'
+import VanMuseum from './pages/doguanadolu/Van-yerler/vanMuseum'
+import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
+import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
+import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
+import Saklikent from './pages/ege/muglaplaces/Saklikent'
+import Aydin from './pages/ege/Aydin'
+import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
+import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
+import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
+import Tralleis from './pages/ege/aydinplaces/Tralleis'
 
 // import Header from './components/Header/Header';
 
@@ -78,7 +106,7 @@ const Routes = () => (
           <Route exact path="/Hierapolis" component={Hierapolis} />
           <Route exact path="/BosphorusMosque" component={BosphorusMosque} />
           <Route exact path="/Pamukkale" component={Pamukkale} />
-          <Route exact path="/Cesme" component={Cesme} />
+          <Route exact path="/Alacati" component={Alacati} />
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
@@ -106,6 +134,36 @@ const Routes = () => (
           <Route exact path="/Karadeniz/Trabzon/Gulbahar" component={Gulbahar} />
           <Route exact path="/Karadeniz/Trabzon/Sumela" component={Sumela} />
           <Route exact path="/Karadeniz/Trabzon/Uzungol" component={Uzungol} />
+          <Route exact path="/Doguanadolu" component={Doguanadolu}/>
+          <Route exact path="/Doguanadolu/Elazig" component={Elazig}/>
+          <Route exact path="/Doguanadolu/Elazig/Harput-Castle" component={HarputCastle}/>
+          <Route exact path="/Doguanadolu/Elazig/Keban-Dam" component={KebanDam}/>
+          <Route exact path="/Doguanadolu/Elazig/Saklikapi-Canyon" component={SaklikapiCanyon}/>
+          <Route exact path="/Doguanadolu/Elazig/Sefik-Gul-Culture-House" component={SefikGulCultureHouse}/>
+          <Route exact path="/Doguanadolu/Erzurum" component={Erzurum}/>
+          <Route exact path="/Doguanadolu/Erzurum/Ataturk-Museum" component={AtaturkMuseum}/>
+          <Route exact path="/Doguanadolu/Erzurum/Lake-Tortum" component={LakeTortum}/>
+          <Route exact path="/Doguanadolu/Erzurum/Palandoken" component={Palandoken}/>
+          <Route exact path="/Doguanadolu/Erzurum/Twin-Minaret-Medrese" component={TwinMinaretMedrese}/>
+          <Route exact path="/Doguanadolu/Van" component={Van}/>
+          <Route exact path="/Doguanadolu/Van/Akdamar-Island" component={AkdamarIsland}/>
+          <Route exact path="/Doguanadolu/Van/Hosap-Castle" component={HosapCastle}/>
+          <Route exact path="/Doguanadolu/Van/Travertines" component={Travertines}/>
+          <Route exact path="/Doguanadolu/Van/Van-Museum" component={VanMuseum}/>
+          <Route exact path="/Doguanadolu/Agri" component={Agri}/>
+          <Route exact path="/Doguanadolu/Agri/Agri-Mountain" component={AgriMountain}/>
+          <Route exact path="/Doguanadolu/Agri/Ishak-Pasa-Palace" component={IshakPasaPalace}/>
+          <Route exact path="/Doguanadolu/Agri/Meya-Cayes" component={MeyaCaves}/>
+          <Route exact path="/Doguanadolu/Agri/Trail-Noahs-Ark" component={TrailNoahsArk}
+          <Route exact path="/BodrumKalesi" component={BodrumKalesi} />
+          <Route exact path="/Iztuzu" component={Iztuzu} />
+          <Route exact path="/YassicaAdalari" component={YassicaAdalari} />
+          <Route exact path="/Saklikent" component={Saklikent} />
+          <Route exact path="/Aydin" component={Aydin} />
+          <Route exact path="/BafaGolu" component={BafaGolu} />
+          <Route exact path="/Tralleis" component={Tralleis} />
+          <Route exact path="/DidimMarina" component={DidimMarina} />
+          <Route exact path="/Guvercinada" component={Guvercinada} />
         </Switch>
         <Footer/>
         </Layout>
