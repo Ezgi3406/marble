@@ -8,27 +8,37 @@ export default class elazıg extends Component {
     render() {
         return (
             <div><div className="content-wrapper">
-                <Image src="https://cdn.goadventureturkey.com/elazig/kapali-carsi.jpg" style={{
+                <div class="video-wrapper">
+          <video
+              className="video-target"
+              autoPlay
+              style={{
                 filter: "contrast(1.04) brightness(0.91)",
-                width: "630px",
-                height: "450px",
-                "margin-top": "30px",
-                "margin-right": "636px",
-              }}/>
-            {/*<Image src="https://cdn.goadventureturkey.com/elazig/1-keban-baraj-golu.jpg" style={{
-                filter: "contrast(1.04) brightness(0.91)",
-                width: "630px",
+                width: "675px",
                 height: "450px",
                 "margin-top": "30px",
                 "margin-left": "636px",
-              }}/>*/}
+              }}
+              preload="none"
+              playsInline
+              muted
+              loop
+              data-poster
+            >
+              <source
+                src="https://cdn.goadventureturkey.com/elazig/elazig.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
             <h2 className="heading"><strong style={{
                 width: "675px",
                 height: "450px",
                 color:"black",
                 fontSize:"60px",
                 "margin-top": "30px",
-                "margin-left": "636px",
+                "margin-right": "670px",
               }}>ELAZIĞ</strong></h2>
             
           </div>
@@ -37,7 +47,7 @@ export default class elazıg extends Component {
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/goturkey/elazig.jpg"
+                src="https://cdn.goadventureturkey.com/elazig/liste-harput-kalesi.jpg"
                 square
                 className="profile-pic"
               />
@@ -51,7 +61,7 @@ export default class elazıg extends Component {
                   Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
 
-                <p><Link to="/Doguanadolu/Elazig">
+                <p><Link to="/Doguanadolu/Elazig/Harput-Castle">
                   <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -60,7 +70,7 @@ export default class elazıg extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/goturkey/erzurum.jpg"
+                src="https://cdn.goadventureturkey.com/elazig/liste-sefik-gul-kultur-evi.jpg"
                 square
                 className="profile-pic"
               />
@@ -74,7 +84,7 @@ export default class elazıg extends Component {
                   Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
                 <p>
-                <Link to="/Doguanadolu/Erzurum">
+                <Link to="/Doguanadolu/Elazig/Sefik-Gul-Culture-House">
                   <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -83,7 +93,7 @@ export default class elazıg extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/goturkey/van.jpg"
+                src="https://cdn.goadventureturkey.com/elazig/liste-keban-baraj-golu.jpg"
                 square
                 className="profile-pic"
               />
@@ -97,7 +107,7 @@ export default class elazıg extends Component {
                   Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
                 <p>
-                <Link to="/Doguanadolu/Van">
+                <Link to="/Doguanadolu/Elazig/Keban-Dam">
                   <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -106,7 +116,7 @@ export default class elazıg extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/goturkey/agri.jpg"
+                src="https://cdn.goadventureturkey.com/elazig/liste-saklikapi-kanyonu.jpg"
                 square
                 className="profile-pic"
               />
@@ -120,7 +130,7 @@ export default class elazıg extends Component {
                   Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
                 <p>
-                <Link to="/Doguanadolu/Agri">
+                <Link to="/Doguanadolu/Elazig/Saklikapi-Canyon">
                   <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
