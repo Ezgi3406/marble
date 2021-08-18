@@ -1,10 +1,8 @@
-
-
 .content-wrapper{
     width: 100%;
-    
     position: relative;
     margin-bottom: 2%;
+    width:100%;
 }
 
 .content-wrapper img{
@@ -20,13 +18,14 @@
     text-align: center;
     width: 100%;
     font-size: 5rem;
+    text-decoration-color: black;
 }
 
 .sub-heading{
     position: absolute;
     color: rgb(224, 224, 224);
     top: 50%;
-    text-align: center;
+    text-align:center;
     width: 100%;
     font-size: 2rem;
 }
@@ -34,4 +33,17 @@
     width: 100%;
     margin-top: -2em;
     margin-bottom: 2em;
+    
+}
+.marmara-wrapper{
+    display: inline-flex;
+    margin-left:200px;
+    align-content: space-between;
+}
+.video-wrapper{
+    width: 100%;
+}
+.background{
+    background-image: url("");
+/* background-repeat: repeat-y; */
 }

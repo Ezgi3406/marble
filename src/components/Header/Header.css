@@ -14,14 +14,14 @@
     --bs:0.25em 0.25em 0.75em rgba(0,0,0,.25),
         0.125em 0.125em 0.25em rgba(0,0,0,.15)
 }
+
 header{
     background-color:#2999BC;
     display: flex;
-    justify-content: flex-start;
-    padding: 10px;;
-    height: 72px;
-    /* position:sticky; */
-    /* width: 100%; */
+    justify-content:flex-end;
+    padding: 15px;;
+    height: 70px;
+   position:static;
 }
 header a{
     color:inherit;
@@ -60,4 +60,13 @@ header p{
     height:50px;
     display: block;
 }
-/**/
+/* .fixed-header{
+    width: 100%;
+    position: fixed;        
+    padding: 0px 0;
+    color: #fff;
+    height: 120px;
+} */
+/* .fixed-header{
+    top: 0;
+} */

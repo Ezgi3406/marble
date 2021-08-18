@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./cesme.css";
+import "../../ege/ege.css";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 
 

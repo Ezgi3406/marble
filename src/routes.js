@@ -7,16 +7,20 @@ import Register from './containers/Admin/register';
 import Profile from './components/User/profile';
 import Logout from './components/User/logout';
 import Home from './components/Home';
-import Istanbul from './components/pages/Istanbul'
+import Istanbul from './pages/marmara/İstanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
-import Marmara from './components/pages/Marmara'
+import Marmara from './pages/marmara/Marmara'
+import Bursa from './pages/marmara/Bursa Places/Bursa'
+import GreatMosque from './pages/marmara/Bursa Places/GreatMosque'
+import Canakkale from './pages/marmara/Çanakkale'
+import Edirne from './pages/marmara/Edirne'
 import Karadeniz from './components/pages/Karadeniz'
 import IcAnadolu from './pages/icAnadolu/icAnadolu'
 import Ege from './pages/ege/Ege'
-import Izmir from './pages/ege/Izmir'
-import Mugla from './pages/ege/Mugla'
-import Denizli from './pages/ege/Denizli'
+import Izmir from './pages/ege/izmirplaces/Izmir'
+import Mugla from './pages/ege/muglaplaces/Mugla'
+import Denizli from './pages/ege/denizliplaces/Denizli'
 import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
 import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
 import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
@@ -93,13 +97,14 @@ import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
 import Tralleis from './pages/ege/aydinplaces/Tralleis'
 
 
+
 // import Header from './components/Header/Header';
+
 
 const Routes = () => (
 
     <div>
       <Layout>
-         {/* <Header/> */}
         <Switch>
          
           {/*<Route path="/" exact component={Auth(Home, null)} />*/}
@@ -109,6 +114,12 @@ const Routes = () => (
           <Route path="/logout" exact component={Auth(Logout, true)} />
           <Route exact path="/" component={Home} />  
           <Route exact path="/Istanbul" component={Istanbul} /> 
+          <Route exact path="/Bursa" component={Bursa} /> 
+          <Route exact path="/GreatMosque" component={GreatMosque} />
+
+          <Route exact path="/Edirne" component={Edirne} /> 
+          <Route exact path="/Canakkale" component={Canakkale} /> 
+
           <Route exact path="/About" component={About} />
           <Route exact path="/Marmara" component={Marmara} />
           <Route exact path="/Karadeniz" component={Karadeniz} />
