@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
-
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./ege.css";
+
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div className="content-wrapper">
-        <div classname="video-wrapper">
+          <div classname="video-wrapper">
             <video
               classname="video-target"
               autoPlay
@@ -25,37 +25,41 @@ export default class Home extends Component {
               data-poster
             >
               <source
-                src="https://cdn.goadventureturkey.com/izmir/izmir-pc.mp4"
+                src="https://cdn.goadventureturkey.com/aydin/aydin.mp4"
                 type="video/mp4"
               />
             </video>
-          {/* <Image src="/assets/img/services.jpg" /> */}
-          
-          <h2 className="heading">İZMİR</h2>
+            <h2 className="heading">AYDIN</h2>
           {/* <h5 className="sub-heading">
-            With us you’ll find a perfect destination in Izmir.
+            With us you’ll find a perfect destination in Aydın.
           </h5> */}
-        </div>
+          </div>
         </div>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Alacati">
-              <Image src="http://localhost:3000/assets/img/places/alacatı2.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/BafaGolu">
+                <Image
+                  src="http://localhost:3000/assets/img/places/bafa-lake.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
+
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  The Çeşme district is a very popular summer resort, especially among residents of nearby İzmir, and includes historic sites such as a 16th-century castle and an old caravanserai. The white sandy beaches stretch lazily along a road lined with exquisitely built houses.
+                  When the sun heats unbearably, you can always choose to go to
+                  the cave of Keloğlan. It is one of the most beautiful and cold
+                  caves in Turkey. As long as you get into the cave, you will
+                  feel the cold immediately.
                 </p>
 
                 <p>
-                  <Link to="/Alacati">
+                  {" "}
+                  <Link to="/BafaGolu">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -63,22 +67,23 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Efes">
-              <Image
-                src="http://localhost:3000/assets/img/places/ephesus1.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/DidimMarina">
+                <Image
+                  src="http://localhost:3000/assets/img/places/Didim-Marina3.jpg"
+                  square/>
               </Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Foundation of the ancient city of Ephesus within the borders of Selçuk District goes back to  <Link to="/Efes"></Link>6000 BCE. The biggest temple dedicated to Artemis, the Artemision, of 6th century BCE was built at the skirts of Ayasuluk hill infront of the earliest harbour of the city.
+                  The area of Hierapolis was exposed to be a place for many
+                  settlements for its abundant water sources. It is highly
+                  believed that the ancient city was built by the people of
+                  Pergamum. There had been a settlement existence here.
                 </p>
                 <p>
-                <Link to="/Efes">
+                  <Link to="/DidinMarina">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -86,22 +91,24 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Kemeralti">
-              <Image
-                src="http://localhost:3000/assets/img/places/kemeralti-bazaar.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Guvercinada">
+                <Image
+                  src="http://localhost:3000/assets/img/places/guvercin-island.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  In the Kemaraltı Historical Bazaar you will find products from the skilled hands of İzmir that bring together the traces of the past with the texture of the present. They sometimes take you to the past and keep the history alive and sometimes reflect modernity.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
                 <p>
-                  <Link to="/Kemeralti">
+                  <Link to="/Guvercinada">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -109,22 +116,27 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Kordon">
-              <Image
-                src="http://localhost:3000/assets/img/places/kordon1.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Tralleis">
+                <Image style={{height:"255px"}}
+                  src="http://localhost:3000/assets/img/places/tralleis1.jpg"
+                 
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  With a beauty that inspired many songs, Kordon is a must-see place in İzmir. It’s one of the symbols of the city, where locals and visitors meet the Aegean Sea, watch the sunset or lay down on the grass and relax during summer and spring. 
+                  Travertines of Pamukkale, with a fairytale look resembling a
+                  cloud field from afar, are one of the rare beauties where
+                  history and nature embrace. With its calcareous structure,
+                  snow-white color and the warmth of thermal water, they give an
+                  indescribable sense of texture
                 </p>
                 <p>
-                  <Link to="/Kordon">
+                  <Link to="/Tralleis">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>

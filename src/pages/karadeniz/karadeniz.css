@@ -1,19 +1,25 @@
+.paragraph {
+    text-align: left;
+    margin: auto;
+    width: 80%;
+    /* border:3px solid green; */
+    padding: 5px;
+    color: #494949
+}
 
-
-.content-wrapper{
+.content-wrapper {
     width: 100%;
-    
     position: relative;
     margin-bottom: 2%;
 }
 
-.content-wrapper img{
-    width: 100%;  
-    height: 300px;  
-   
+.content-wrapper img {
+    width: 100%;
+    height: 300px;
+
 }
 
-.heading{
+.heading {
     position: absolute;
     color: rgb(240, 240, 240);
     top: 30%;
@@ -22,7 +28,7 @@
     font-size: 5rem;
 }
 
-.sub-heading{
+.sub-heading {
     position: absolute;
     color: rgb(224, 224, 224);
     top: 50%;
@@ -30,8 +36,13 @@
     width: 100%;
     font-size: 2rem;
 }
-.header-img{
+
+.header-img {
     width: 100%;
     margin-top: -2em;
     margin-bottom: 2em;
+}
+
+.button{
+    border-radius: 12px;
 }

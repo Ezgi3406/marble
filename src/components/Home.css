@@ -1,13 +1,13 @@
 .jumbotron {
   margin-top: 12.5em;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 .person-wrapper {
   margin-bottom: 2em;
 }
 
 .profile-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .btn-primary {
