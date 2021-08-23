@@ -87,7 +87,7 @@ import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
 import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
 import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
 import Saklikent from './pages/ege/muglaplaces/Saklikent'
-import Aydin from './pages/ege/Aydin'
+import Aydin from './pages/ege/aydinplaces/Aydin'
 import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
 import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
 import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
@@ -130,7 +130,7 @@ const Routes = () => (
           <Route exact path="/Alacati" component={Alacati} />
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
-          <Route exact path="Kordon" component={Kordon} />
+          <Route exact path="/Kordon" component={Kordon} />
           <Route exact path="/Bodrum" component={Bodrum} />
           <Route exact path="/IcAnadolu/Ankara" component={Ankara} />
           <Route exact path="/IcAnadolu/Eskişehir" component={Eskişehir} />

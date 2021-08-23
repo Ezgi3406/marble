@@ -39,7 +39,7 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/BodrumKalesi">
                 <Image
-                  style={{ height: "244px" }}
+                  style={{ height: "349px" }}
                   src="http://localhost:3000/assets/img/places/Bodrumkalesi.jpg"
                   square
                   className="profile-pic"
@@ -109,7 +109,7 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/YassicaAdalari">
-                <Image style={{ height: "244px" }}
+                <Image style={{ height: "349px" }}
                   src="http://localhost:3000/assets/img/places/fethiye-yassica-islands.jpg"
                   square
                   className="profile-pic"
