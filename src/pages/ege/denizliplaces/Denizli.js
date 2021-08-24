@@ -39,6 +39,7 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/KeloglanCave">
                 <Image
+                  style={{ height: "381px" }}
                   src="http://localhost:3000/assets/img/places/keloglan-cave.jpg"
                   square
                   className="profile-pic"
@@ -94,6 +95,7 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/Bosphorus">
                 <Image
+                  style={{ height: "381px" }}
                   src="http://localhost:3000/assets/img/places/bosphorus-mosque.jpg"
                   square
                   className="profile-pic"
@@ -120,7 +122,7 @@ export default class Home extends Component {
               <Link to="/Pamukkale">
                 <Image
                   src="http://localhost:3000/assets/img/places/pamukkale.jpg"
-                  style={{ height: "274px" }}
+                  style={{ height: "381px" }}
                   square
                   className="profile-pic"
                 />
