@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../../../pages/pages.css";
+import "../../pages/pages.css";
 
 export default class Home extends Component {
   render() {
@@ -69,8 +69,7 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/DidimMarina">
                 <Image
-                  style={{height:"359px"}}
-                  src="http://localhost:3000/assets/img/places/Didim-Marina2.jpg"
+                  src="http://localhost:3000/assets/img/places/Didim-Marina3.jpg"
                   square/>
               </Link>
               <>
@@ -84,7 +83,7 @@ export default class Home extends Component {
                   Pergamum. There had been a settlement existence here.
                 </p>
                 <p>
-                  <Link to="/DidimMarina">
+                  <Link to="/DidinMarina">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -94,7 +93,6 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/Guvercinada">
                 <Image
-                  style={{height:"360px"}}
                   src="http://localhost:3000/assets/img/places/guvercin-island.jpg"
                   square
                   className="profile-pic"
@@ -119,7 +117,7 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/Tralleis">
-                <Image style={{height:"362px"}}
+                <Image style={{height:"255px"}}
                   src="http://localhost:3000/assets/img/places/tralleis1.jpg"
                  
                   square
