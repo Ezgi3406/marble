@@ -24,10 +24,6 @@ import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
-import Bodrum from './pages/ege/muglaplaces/Bodrum'
-import Datca from './pages/ege/muglaplaces/Datca'
-import Fethiye from './pages/ege/muglaplaces/Fethiye'
-import Marmaris from './pages/ege/muglaplaces/Marmaris'
 import Bolu from './pages/karadeniz/Bolu'
 import Abant from './pages/karadeniz/boluplaces/Abant'
 import Mudurnu from './pages/karadeniz/boluplaces/Mudurnu'
@@ -110,10 +106,6 @@ const Routes = () => (
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
-          <Route exact path="/Bodrum" component={Bodrum} />
-          <Route exact path="/Datca" component={Datca} />
-          <Route exact path="/Fethiye" component={Fethiye} />
-          <Route exact path="/Marmaris" component={Marmaris} />
           <Route exact path="/Karadeniz/Bolu" component={Bolu} />
           <Route exact path="/Karadeniz/Bolu/Abant" component={Abant} />
           <Route exact path="/Karadeniz/Bolu/Mudurnu" component={Mudurnu} />
@@ -154,7 +146,7 @@ const Routes = () => (
           <Route exact path="/Doguanadolu/Agri/Agri-Mountain" component={AgriMountain}/>
           <Route exact path="/Doguanadolu/Agri/Ishak-Pasa-Palace" component={IshakPasaPalace}/>
           <Route exact path="/Doguanadolu/Agri/Meya-Cayes" component={MeyaCaves}/>
-          <Route exact path="/Doguanadolu/Agri/Trail-Noahs-Ark" component={TrailNoahsArk}
+          <Route exact path="/Doguanadolu/Agri/Trail-Noahs-Ark" component={TrailNoahsArk}/>
           <Route exact path="/BodrumKalesi" component={BodrumKalesi} />
           <Route exact path="/Iztuzu" component={Iztuzu} />
           <Route exact path="/YassicaAdalari" component={YassicaAdalari} />
