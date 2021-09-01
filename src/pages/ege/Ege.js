@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./ege.css";
+import "../../pages/pages.css";
 
 export default class Home extends Component {
   render() {
@@ -103,7 +103,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Denizli, tarihi ve doğal güzellikleri ile gezilip görülmesi gereken turizm yerlerinden biridir. Eski çağlara kadar dayanan tarihi birikimi şehrin kültürel dokusunu etkilediği kadar turistik yerlerin yapısını da etkilemiştir. Birçok medeniyete ev sahipliği yapmış olan Denizli bu medeniyetlerin izini taşımaktadır.
+                  Denizli, tarihi ve muhteşem doğal güzellikleri ile gezilip görülmesi gereken önemli turizm yerlerinden biridir. Eski çağlara kadar dayanan tarihi birikimi şehrin kültürel dokusunu etkilediği kadar turistik yerlerin yapısını da etkilemiştir. Birçok medeniyete ev sahipliği yapmış olan Denizli bu medeniyetlerin izini taşımaktadır.
                 </p>
                 <p>
                   {" "}

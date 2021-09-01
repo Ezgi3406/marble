@@ -1,9 +1,13 @@
 .jumbotron {
-  margin-top: 12.5em;
+  margin-top: 15.5em;
   margin-bottom: 5em;
+  
+  
+
 }
 .person-wrapper {
   margin-bottom: 2em;
+  
 }
 
 .profile-pic {
@@ -23,12 +27,13 @@ h3 {
 
 p {
   font: 1em sans-serif;
-
-  text-align:justify;
+  text-align:left;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
    word-spacing: 2px; 
    padding-top: 3px;
+   
   
 }
+

@@ -7,15 +7,20 @@ import Register from './containers/Admin/register';
 import Profile from './components/User/profile';
 import Logout from './components/User/logout';
 import Home from './components/Home';
-import Istanbul from './components/pages/Istanbul'
+import Istanbul from './pages/marmara/İstanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
-import Marmara from './components/pages/Marmara'
-import Karadeniz from './components/pages/Karadeniz'
+import Marmara from './pages/marmara/Marmara'
+import Bursa from './pages/marmara/Bursa Places/Bursa'
+import GreatMosque from './pages/marmara/Bursa Places/GreatMosque'
+import Canakkale from './pages/marmara/Çanakkale'
+import Edirne from './pages/marmara/Edirne'
+import Karadeniz from './pages/karadeniz/Karadeniz'
+import IcAnadolu from './pages/icAnadolu/icAnadolu'
 import Ege from './pages/ege/Ege'
-import Izmir from './pages/ege/Izmir'
-import Mugla from './pages/ege/Mugla'
-import Denizli from './pages/ege/Denizli'
+import Izmir from './pages/ege/izmirplaces/Izmir'
+import Mugla from './pages/ege/muglaplaces/Mugla'
+import Denizli from './pages/ege/denizliplaces/Denizli'
 import KeloglanCave from './pages/ege/denizliplaces/KeloglanCave'
 import Hierapolis from './pages/ege/denizliplaces/Hierapolis'
 import BosphorusMosque from './pages/ege/denizliplaces/BosphorusMosque'
@@ -24,6 +29,19 @@ import Alacati from './pages/ege/izmirplaces/Alacati'
 import Efes from './pages/ege/izmirplaces/Efes'
 import Kemeralti from './pages/ege/izmirplaces/Kemeralti'
 import Kordon from './pages/ege/izmirplaces/Kordon'
+import Bodrum from './pages/ege/muglaplaces/BodrumKalesi'
+import Ankara from './pages/icAnadolu/ankara/ankara'
+import Nevşehir from './pages/icAnadolu/nevşehir/nevşehir'
+import Eskişehir from './pages/icAnadolu/eskişehir/eskişehir'
+import Konya from './pages/icAnadolu/konya/konya'
+import Anıtkabir from './pages/icAnadolu/ankara/anıtkabir'
+import AnkaraKalesi from './pages/icAnadolu/ankara/ankaraKalesi'
+import IlkMeclis from './pages/icAnadolu/ankara/ilkMeclis';
+import Nallıhan from './pages/icAnadolu/ankara/nallıhan';
+import Odunpazarı from './pages/icAnadolu/eskişehir/odunpazarı';
+import Porsuk from './pages/icAnadolu/eskişehir/porsuk';
+import Atlıhan from './pages/icAnadolu/eskişehir/atlıhan';
+import Yazılıkaya from './pages/icAnadolu/eskişehir/yazılıkaya';
 import Bolu from './pages/karadeniz/Bolu'
 import Abant from './pages/karadeniz/boluplaces/Abant'
 import Mudurnu from './pages/karadeniz/boluplaces/Mudurnu'
@@ -44,7 +62,7 @@ import Ataturk from './pages/karadeniz/trabzonplaces/Ataturk'
 import Gulbahar from './pages/karadeniz/trabzonplaces/Gulbahar'
 import Sumela from './pages/karadeniz/trabzonplaces/Sumela'
 import Uzungol from './pages/karadeniz/trabzonplaces/Uzungol'
-import Doguanadolu from './components/pages/Doguanadolu'
+import Doguanadolu from './pages/doguanadolu/Doguanadolu'
 import Elazig from './pages/doguanadolu/elazig'
 import HarputCastle from './pages/doguanadolu/Elazig-yerler/harputCastle'
 import KebanDam from './pages/doguanadolu/Elazig-yerler/kebanDam'
@@ -69,19 +87,21 @@ import BodrumKalesi from './pages/ege/muglaplaces/BodrumKalesi'
 import Iztuzu from './pages/ege/muglaplaces/Iztuzu'
 import YassicaAdalari from './pages/ege/muglaplaces/YassicaAdalari'
 import Saklikent from './pages/ege/muglaplaces/Saklikent'
-import Aydin from './pages/ege/Aydin'
+import Aydin from './pages/ege/aydinplaces/Aydin'
 import BafaGolu from './pages/ege/aydinplaces/BafaGolu'
 import DidimMarina from './pages/ege/aydinplaces/DidimMarina'
 import Guvercinada from './pages/ege/aydinplaces/Guvercinada'
 import Tralleis from './pages/ege/aydinplaces/Tralleis'
 
+
+
 // import Header from './components/Header/Header';
+
 
 const Routes = () => (
 
     <div>
       <Layout>
-         {/* <Header/> */}
         <Switch>
          
           {/*<Route path="/" exact component={Auth(Home, null)} />*/}
@@ -91,10 +111,15 @@ const Routes = () => (
           <Route path="/logout" exact component={Auth(Logout, true)} />
           <Route exact path="/" component={Home} />  
           <Route exact path="/Istanbul" component={Istanbul} /> 
+          <Route exact path="/Bursa" component={Bursa} /> 
+          <Route exact path="/GreatMosque" component={GreatMosque} />
+          <Route exact path="/Edirne" component={Edirne} /> 
+          <Route exact path="/Canakkale" component={Canakkale} /> 
           <Route exact path="/About" component={About} />
           <Route exact path="/Marmara" component={Marmara} />
           <Route exact path="/Karadeniz" component={Karadeniz} />
           <Route exact path="/Ege" component={Ege} />
+          <Route exact path="/IcAnadolu" component={IcAnadolu} />
           <Route exact path="/Izmir" component={Izmir} />
           <Route exact path="/Mugla" component={Mugla} />
           <Route exact path="/Denizli" component={Denizli} />
@@ -106,6 +131,20 @@ const Routes = () => (
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
+          <Route exact path="/Kordon" component={Kordon} />
+          <Route exact path="/Bodrum" component={Bodrum} />
+          <Route exact path="/IcAnadolu/Ankara" component={Ankara} />
+          <Route exact path="/IcAnadolu/Eskişehir" component={Eskişehir} />
+          <Route exact path="/IcAnadolu/Konya" component={Konya} />
+          <Route exact path="/IcAnadolu/Nevşehir" component={Nevşehir} />
+          <Route exact path="/IcAnadolu/Ankara/Anıtkabir" component={Anıtkabir}/>
+          <Route exact path="/IcAnadolu/Ankara/AnkaraKalesi" component={AnkaraKalesi}/>
+          <Route exact path="/IcAnadolu/Ankara/IlkMeclis" component={IlkMeclis}/>
+          <Route exact path="/IcAnadolu/Ankara/Nallıhan" component={Nallıhan}/>
+          <Route exact path="/IcAnadolu/Eskişehir/Odunpazarı" component={Odunpazarı}/>
+          <Route exact path="/IcAnadolu/Eskişehir/Porsuk" component={Porsuk}/>
+          <Route exact path="/IcAnadolu/Eskişehir/Atlıhan" component={Atlıhan}/>
+          <Route exact path="/IcAnadolu/Eskişehir/Yazılıkaya" component={Yazılıkaya}/>
           <Route exact path="/Karadeniz/Bolu" component={Bolu} />
           <Route exact path="/Karadeniz/Bolu/Abant" component={Abant} />
           <Route exact path="/Karadeniz/Bolu/Mudurnu" component={Mudurnu} />
@@ -156,6 +195,7 @@ const Routes = () => (
           <Route exact path="/Tralleis" component={Tralleis} />
           <Route exact path="/DidimMarina" component={DidimMarina} />
           <Route exact path="/Guvercinada" component={Guvercinada} />
+
         </Switch>
         <Footer/>
         </Layout>

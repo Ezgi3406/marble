@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Col, Image, Button, Row } from "react-bootstrap";
 import Header from "../../components/Header/Header";
-import "../../components/pages/marmara.css";
+import "../../pages/pages.css";
 import { Link } from 'react-router-dom';
 export default class erzurum extends Component {
     render() {

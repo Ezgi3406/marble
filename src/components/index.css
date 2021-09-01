@@ -80,6 +80,8 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
+
+
 h1 {
   font-size: 3rem;
 }
@@ -156,6 +158,7 @@ Stripe Styles
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
 }
 .btn {
   font-size: 1rem;
@@ -232,6 +235,9 @@ Stripe Styles
   }
   .nav-logo{
     margin:auto;
+    margin-top: auto;
+    position: relative;
+    z-index: 3;
   }
   .toggle-btn {
     display: none;
@@ -252,6 +258,7 @@ Stripe Styles
     height: 100%;
     display: grid;
     align-items: center;
+    
     
   }
   .nav-links li {
@@ -399,6 +406,7 @@ Stripe Styles
   padding: 2rem;
   border-radius: var(--radius);
   transition: var(--transition);
+  
 }
 .submenu::before {
   content: '';
