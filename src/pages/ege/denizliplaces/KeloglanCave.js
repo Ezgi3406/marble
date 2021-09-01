@@ -1,91 +1,90 @@
-
 import React, { Component } from "react";
 import "../../../pages/pages.css";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { right } from "@popperjs/core";
-
-
 
 export default class GreatMosque extends Component {
   render() {
     return (
       <div className="background">
-        <div className="background-image">
-                   
-        </div>
+        <div className="background-image"></div>
 
         <div style={{ display: "grid", "grid-template-columns": "1fr 1fr" }}>
           <Col xs={40} sm={15} className="marmara-wrapper">
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/1/14/Exterior_of_Sultan_Ahmed_I_Mosque%2C_%28old_name_P1020390.jpg%29.jpg"
-              style={{ height: "600px", width: "900px", padding:"60px", marginRight:"10px"}}
+              src="https://upload.wikimedia.org/wikipedia/commons/0/03/Keloglan_magarasi.jpg"
+              style={{
+                height: "600px",
+                width: "900px",
+                padding: "60px",
+                marginRight: "10px",
+              }}
               square
               className="profile-pic"
             />
-            </Col>
-            </div>
-            <p style={{padding: "60px" }}>
-              <h3>Great Mosque</h3>
-              Located in the Yeşil district, the mosque was built in 1419 by
-              Çelebi Sultan Mehmed. Green Mosque, which is one of the "Inverted
-              T" plan mosques, is one of the most beautiful historical buildings
-              of Türkiye as well as Bursa. The architect of the mosque is Hacı
-              İvaz Pasha. The crown door at the entrance of Green Mosque, is a
-              beautiful product of Turkish stone carving. The mukarnas is
-              extraordinarily beautiful. Green stone and marble were used in the
-              door arch. Most of the interior is covered with tiles. The walls,
-              ceilings, vaults and transition iwans are all covered with tiles.
-              One of the most precious examples of tile work in the mosque is
-              its mihrab, which is more than ten meters high. The mihrab, which
-              includes flowers with various geometric motifs, is one of the most
-              beautiful details in the mosque.<br/>
-              Green Madrasa, one of the first Ottoman madrasas, is also known as Sultaniye Madrasa, hosts tile and ceramic works from the Seljuk, Beylik and Ottoman periods (İznik, Kütahya) dating from the 13th to the 20th centuries, wood, carved and inlaid works, examples of Turkish metal art, tombak and other metal works, Seljuk and Ottoman coins, traditional Turkish handicrafts and clothes.
-            </p>
-               <Container>
+          </Col>
+        </div>
+        <p style={{ padding: "60px" }}>
+          <h3>Keloğlan Mağarası</h3>
+          1970 yılında keşfedilen Keloğlan Mağarası, Acıpayam’daki Dodurgalar
+          Kasabası’na bağlı bir mağaradır. Denizli Valiliği ve Dodurgalar
+          Belediyesi Maden Tetkik Arama tarafından turizme kazandırılmış ve 2003
+          yılında ziyarete açılmıştır. Yaklaşık 10 milyon yıldır oluşumunu
+          sürdüren Keloğlan Mağarası, 2 büyük galerideki sarkıt ve dikitleriyle
+          çok güzel bir havaya sahip. Yaklaşık 145 metre uzunluğa sahip olan
+          mağarada çok sayıda damlataş görmek mümkün. İçeride hala yarasa
+          toplulukları bulunuyor. Bu nedenle zaten küçük olan mağarada, bir
+          yarasanın uçması yakınınızdan geçmesi demek. Ama endişelenecek bir şey
+          yok. Dodurgalar Kasabası’nda yer aldığı için Dodurgalar Mağarası
+          olarak da bilinen Keloğlan Mağarası’nın çıkışında küçük bir vitrinde,
+          mağarada bulunduğunu tahmin ettiğim bizon, kırmızı tilki, keçi, kurt
+          gibi hayvanlara ait çeşitli kemikler ve kalıntılar sergileniyor.
+        </p>
+        <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-green-mosque.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6RQRh8OODEgLaI3qrYEc5CXgjJUXEyv8i5w&usqp=CAU"
+                style={{ height: "274px", width: "250px" }}
                 square
                 className="profile-pic"
               />
-              <>
-                </>
+              <></>
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/1-liste-great-mosque.jpg"style={{height:"274px" ,width:"250px"}} square
-                
-                className="profile-pic"
-              />
-              <>
-               
-              </>
-            </Col>
-
-            <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-hudavendigar-mosque.jpg" style={{height:"274px" ,width:"250px"}}square
-                className="profile-pic"
-              />
-              <>
-               </>
-            </Col>
-
-            <Col xs={12} sm={3} className="person-wrapper">
-              <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-emir-sultan-complex.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_9XDoyX6aJWZaMDY9kVrLq87Nj9NfWHJYg&usqp=CAU"
+                style={{ height: "274px", width: "250px" }}
                 square
                 className="profile-pic"
               />
-              <>
-                </>
+              <></>
+            </Col>
+
+            <Col xs={12} sm={3} className="person-wrapper">
+              <Image
+                src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/424000/424937.jpg"
+                style={{ height: "274px", width: "250px" }}
+                square
+                className="profile-pic"
+              />
+              <></>
+            </Col>
+
+            <Col xs={12} sm={3} className="person-wrapper">
+              <Image
+                src="https://www.kulturportali.gov.tr/repoKulturPortali/large/13082015/c28b0a4b-e07e-45e3-be4a-cd3e36f6b6b6.jpg?format=jpg&quality=50"
+                style={{ height: "274px", width: "250px" }}
+                square
+                className="profile-pic"
+              />
+              <></>
             </Col>
           </Row>
         </Container>
-       </div>
+      </div>
     );
   }
 }

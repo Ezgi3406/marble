@@ -4,18 +4,17 @@ import { FaSearch } from "react-icons/fa";
 
 function Search() {
   return (
-    <div>
-      <Form>
-        <div
-          style={{
-            display: "grid",
-            "grid-template-columns": "1fr 1fr",
-            "margin-top": "200px",
-            "margin-bottom": "300px",
-            "margin-left": "400px",
-            "margin-right": "150px",
-          }}
-        >
+    <div >
+      <Form  >
+        <div style={{
+      display: "grid",
+      "grid-template-columns": "1fr 1fr",
+      "margin-top": "200px",
+      "margin-bottom": "300px",
+      "margin-left": "400px",
+      "margin-right": "150px",
+      
+    }}>
           <Form.Control placeholder="Search" />
           <button
             type="button"
@@ -26,10 +25,21 @@ function Search() {
               <FaSearch />
             </svg>
           </button>
-          {/* @media screen and (min-width: 800px)
-<style>
-body {
-    font-size: 1rem;
+          {/* @media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
 } */}
         </div>
       </Form>

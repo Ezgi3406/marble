@@ -7,6 +7,7 @@ import Register from './containers/Admin/register';
 import Profile from './components/User/profile';
 import Logout from './components/User/logout';
 import Home from './components/Home';
+import Search from './pages/Search';
 import Istanbul from './pages/marmara/İstanbul'
 import About from './components/pages/About'
 import Footer from './components/Footer'
@@ -125,7 +126,7 @@ const Routes = () => (
           <Route exact path="/Denizli" component={Denizli} />
           <Route exact path="/KeloglanCave" component={KeloglanCave} />
           <Route exact path="/Hierapolis" component={Hierapolis} />
-          <Route exact path="/BosphorusMosque" component={BosphorusMosque} />
+          <Route exact path="/Bosphorus" component={BosphorusMosque} />
           <Route exact path="/Pamukkale" component={Pamukkale} />
           <Route exact path="/Alacati" component={Alacati} />
           <Route exact path="/Efes" component={Efes} />
@@ -194,6 +195,7 @@ const Routes = () => (
           <Route exact path="/Tralleis" component={Tralleis} />
           <Route exact path="/DidimMarina" component={DidimMarina} />
           <Route exact path="/Guvercinada" component={Guvercinada} />
+          <Route exact path="/Search" component={Search} />
 
         </Switch>
         <Footer/>

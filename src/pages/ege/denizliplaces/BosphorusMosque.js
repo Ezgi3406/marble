@@ -17,7 +17,7 @@ export default class GreatMosque extends Component {
         <div style={{ display: "grid", "grid-template-columns": "1fr 1fr" }}>
           <Col xs={40} sm={15} className="marmara-wrapper">
             <Image
-              src="http://localhost:3000/assets/img/places/alacatı2.jpg"
+              src="https://www.denizlihaber.com/medya/2015/07/ic-1210.jpg"
               style={{ height: "600px", width: "900px", padding:"60px", marginRight:"10px"}}
               square
               className="profile-pic"
@@ -25,27 +25,15 @@ export default class GreatMosque extends Component {
             </Col>
             </div>
             <p style={{padding: "60px" }}>
-              <h3>Great Mosque</h3>
-              Located in the Yeşil district, the mosque was built in 1419 by
-              Çelebi Sultan Mehmed. Green Mosque, which is one of the "Inverted
-              T" plan mosques, is one of the most beautiful historical buildings
-              of Türkiye as well as Bursa. The architect of the mosque is Hacı
-              İvaz Pasha. The crown door at the entrance of Green Mosque, is a
-              beautiful product of Turkish stone carving. The mukarnas is
-              extraordinarily beautiful. Green stone and marble were used in the
-              door arch. Most of the interior is covered with tiles. The walls,
-              ceilings, vaults and transition iwans are all covered with tiles.
-              One of the most precious examples of tile work in the mosque is
-              its mihrab, which is more than ten meters high. The mihrab, which
-              includes flowers with various geometric motifs, is one of the most
-              beautiful details in the mosque.<br/>
-              Green Madrasa, one of the first Ottoman madrasas, is also known as Sultaniye Madrasa, hosts tile and ceramic works from the Seljuk, Beylik and Ottoman periods (İznik, Kütahya) dating from the 13th to the 20th centuries, wood, carved and inlaid works, examples of Turkish metal art, tombak and other metal works, Seljuk and Ottoman coins, traditional Turkish handicrafts and clothes.
+              <h3>Bosphorus Cami</h3>
+              Baklan ilçesindeki  Bosphorus Camisi tavan, kemer, sütun, kapı ve minberindeki süslemelerle dikkat çekiyor. 1767 yılında yapıldığı tahmin edilen dikdörtgen planlı ve 3 sahınlı ibadethane, tarihi süslemeleriyle görsel bir şölen sunuyor. Ahşap geometrik şekillerle bezeli bir kapıdan girilen ibadethanenin iç kısmındaki duvarlar, tavan ve ahşap desteklerde, zengin kalem işi süslemeler yer alıyor. Üzerinde çiçek süslemelerinin bulunduğu Bursa kemerleriyle birbirine bağlanan camide, sütun ve ahşap bölümlerde çok sayıda bitkisel motif yer alıyor. Yeşil, kırmızı ve mavi renklerin yoğun olarak kullanıldığı, süslemelerin kalemle yapıldığı caminin köşelerinde ise ağaç, duvarlarında karanfil servi ağacı ve sümbül motifleri dikkati çekiyor. Anadolu Selçuklu dönemi mimarisi ve süsleme sanatının izlerini taşıyan caminin duvarlarında yer alan, cennet ve cehennemi anlatan tasvirler ise görenleri kendine hayran bırakıyor.
+              Bosphorus Camisi, dikine dikdörtgen planlı ve üç sahınlıdır. Hicri 1181’de yapılmıştır. Duvarları temel seviyesine kadar taş, üzeri kerpiç örgülüdür. Dikdörtgen planlı harim, ahşap desteklerle üç sahına ayrılmıştır. Destekler birbirine Bursa kemeriyle bağlanmıştır. Yan duvarlar içten ve dıştan kare şeklindeki ahşap direkler ile desteklenmiştir. Mihrap, mukarnaslı kavsara ile örtülü yarım daire kesitli bir niş şeklindedir. Ahşap minberi ve vaaz kürsüsü süslemesizdir. Tavan ve ahşap destekler, zengin kalem işi süslemelere sahiptir. Harim duvarları, bitkisel ve geometrik süslemeler ve mimari tasvirlerden oluşan duvar resimleriyle bezelidir. Caminin üzeri düz toprak dam iken toprağı alınarak dört yöne eğimli çatı ile kaplanmıştır.
             </p>
                <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-green-mosque.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/10/04/62443.jpg" style={{height:"274px" ,width:"250px"}}
                 square
                 className="profile-pic"
               />
@@ -55,7 +43,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/1-liste-great-mosque.jpg"style={{height:"274px" ,width:"250px"}} square
+                src="https://cdn.goadventureturkey.com/denizli/bosphorus-old-mosque-2.jpg"style={{height:"274px" ,width:"250px"}} square
                 
                 className="profile-pic"
               />
@@ -66,7 +54,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-hudavendigar-mosque.jpg" style={{height:"274px" ,width:"250px"}}square
+                src="https://cdn.goadventureturkey.com/denizli/2-bosphorus-old-mosque.jpg" style={{height:"274px" ,width:"250px"}}square
                 className="profile-pic"
               />
               <>
@@ -75,7 +63,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-emir-sultan-complex.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://www.tourmakerturkey.com/uploads/8/7/4/4/8744530/2693119.jpeg" style={{height:"274px" ,width:"250px"}}
                 square
                 className="profile-pic"
               />

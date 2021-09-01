@@ -11,6 +11,16 @@
    
 }
 
+@media screen and (max-width: 600px) {
+        .search{
+        margin-top: 200px;
+        margin-bottom: 300px;
+        margin-left: 400px;
+        margin-right: 150px;
+        
+    } 
+}
+
 .heading{
     position: absolute;
     color: rgb(240, 240, 240);

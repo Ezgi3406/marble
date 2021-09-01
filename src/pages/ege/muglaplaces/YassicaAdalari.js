@@ -17,7 +17,7 @@ export default class GreatMosque extends Component {
         <div style={{ display: "grid", "grid-template-columns": "1fr 1fr" }}>
           <Col xs={40} sm={15} className="marmara-wrapper">
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/1/14/Exterior_of_Sultan_Ahmed_I_Mosque%2C_%28old_name_P1020390.jpg%29.jpg"
+              src="https://image.elitema.com.tr/db_images/109/4/1236/mymavitur%20(1).jpg"
               style={{ height: "600px", width: "900px", padding:"60px", marginRight:"10px"}}
               square
               className="profile-pic"
@@ -25,27 +25,14 @@ export default class GreatMosque extends Component {
             </Col>
             </div>
             <p style={{padding: "60px" }}>
-              <h3>Great Mosque</h3>
-              Located in the Yeşil district, the mosque was built in 1419 by
-              Çelebi Sultan Mehmed. Green Mosque, which is one of the "Inverted
-              T" plan mosques, is one of the most beautiful historical buildings
-              of Türkiye as well as Bursa. The architect of the mosque is Hacı
-              İvaz Pasha. The crown door at the entrance of Green Mosque, is a
-              beautiful product of Turkish stone carving. The mukarnas is
-              extraordinarily beautiful. Green stone and marble were used in the
-              door arch. Most of the interior is covered with tiles. The walls,
-              ceilings, vaults and transition iwans are all covered with tiles.
-              One of the most precious examples of tile work in the mosque is
-              its mihrab, which is more than ten meters high. The mihrab, which
-              includes flowers with various geometric motifs, is one of the most
-              beautiful details in the mosque.<br/>
-              Green Madrasa, one of the first Ottoman madrasas, is also known as Sultaniye Madrasa, hosts tile and ceramic works from the Seljuk, Beylik and Ottoman periods (İznik, Kütahya) dating from the 13th to the 20th centuries, wood, carved and inlaid works, examples of Turkish metal art, tombak and other metal works, Seljuk and Ottoman coins, traditional Turkish handicrafts and clothes.
+              <h3>Yassıca Adaları</h3>
+              Fethiye ve Göcek’in komşu oldukları Fethiye Körfezi’nin adeta simgesi olmuş bir adalar topluluğu Yassıca Adaları ya da bilinen diğer adı ile Yassıcalar. İrili ufaklı birçok adadan oluşan Yassıca Adaları korunaklı yapısı ve doğal güzelliği ile günübirlik tekne turları ve konaklamalı mavi yolculuk turları için biçilmiş kaftan. Fethiye Yassıcalar’da ki bazı adalar o kadar küçük ki eski denizciler tümüne birden tek isim vermiştir. Yassıca Ada’sı Ölüdeniz Kumburnu Plajı’na benzemesi, uç kısmında çocuklar ve yüzme bilmeyenler için doğal bir havuzu olması ile dünya çapında ün kazanmıştır. Doğal havuzda gönül rahatlığı ile çocuklarınızın yüzmelerine izin verebilirsiniz. Ayrıca adadan adaya yüzme merakı olanlar içinde Yassıcalar çok uygun. Yaklaşık yarım saatlik yüzme Yassıca Adaları’ndan bir kaçını dolaşabilirsiniz. Üzerinde hiçbir yerleşimin olmadığı, mavi ile yeşilin buluştuğu bu şirin Fethiye adası, tatiliniz süresince görülmesi gereken yerlerden biri. 
             </p>
                <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-green-mosque.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://pbs.twimg.com/media/D707rJRWsAAI9sq.jpg" style={{height:"274px" ,width:"250px"}}
                 square
                 className="profile-pic"
               />
@@ -55,7 +42,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/1-liste-great-mosque.jpg"style={{height:"274px" ,width:"250px"}} square
+                src="https://media-cdn.tripadvisor.com/media/photo-s/1c/b9/f8/5e/fethiye-gocek-yassicalar.jpg"style={{height:"274px" ,width:"250px"}} square
                 
                 className="profile-pic"
               />
@@ -66,7 +53,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-hudavendigar-mosque.jpg" style={{height:"274px" ,width:"250px"}}square
+                src="https://i.pinimg.com/originals/e6/12/bb/e612bbc01e2197ffc984249b813b2f24.jpg" style={{height:"274px" ,width:"250px"}}square
                 className="profile-pic"
               />
               <>
@@ -75,7 +62,7 @@ export default class GreatMosque extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Image
-                src="https://cdn.goadventureturkey.com/bursa/liste-emir-sultan-complex.jpg" style={{height:"274px" ,width:"250px"}}
+                src="https://kiralikyatgocek.com/wp-content/uploads/2020/01/Yass%C4%B1ca-Adalar-800x600.jpg" style={{height:"274px" ,width:"250px"}}
                 square
                 className="profile-pic"
               />
