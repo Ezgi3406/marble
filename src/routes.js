@@ -131,6 +131,7 @@ const Routes = () => (
           <Route exact path="/Efes" component={Efes} />
           <Route exact path="/Kemeralti" component={Kemeralti} />
           <Route exact path="Kordon" component={Kordon} />
+          <Route exact path="/Kordon" component={Kordon} />
           <Route exact path="/Bodrum" component={Bodrum} />
           <Route exact path="/IcAnadolu/Ankara" component={Ankara} />
           <Route exact path="/IcAnadolu/Eskişehir" component={Eskişehir} />
