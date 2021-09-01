@@ -14,10 +14,9 @@ export default class Home extends Component {
               autoPlay
               style={{
                 filter: "contrast(1.04) brightness(0.91)",
-                width: "675px",
-                height: "450px",
+                width: "1350px",
+                height: "250px",
                 "margin-top": "1px",
-                "margin-left":"636px"
               }}
               preload="none"
               playsInline
@@ -33,19 +32,13 @@ export default class Home extends Component {
             </video>
           </div>
           <h2 className="heading">
-            <strong style={{
-                width: "675px",
-                height: "450px",
-                "margin-top": "1px",
-                "margin-right":"636px"
-              }}>KARADENIZ</strong>
+            <strong>KARADENIZ</strong>
           </h2>
 
           {/* <h5 className="sub-heading">BLUE MARBLE</h5> */}
 
           <div>
-            <p className="paragraph" style={{'margin-top':'10px'
-        }}>
+            <p className="paragraph">
               {" "}
               Bir tarafında deniz, diğer tarafında engebeli dağlarla çevrili,
               dar kıyı şeridine dağılmış köyleri ile ülkenin geri kalanından
