@@ -6,7 +6,7 @@ import "../../pages/pages.css";
 export default class Home extends Component {
   render() {
     return (
-      <div className="body">
+      <div>
         <div className="content-wrapper">
           <div className="video-wrapper">
             <video
@@ -14,9 +14,10 @@ export default class Home extends Component {
               autoPlay
               style={{
                 filter: "contrast(1.04) brightness(0.91)",
-                width: "1350px",
-                height: "250px",
-                "margin-top": "1px",
+                width: "675px",
+                height: "450px",
+                "margin-top": "30px",
+                "margin-left": "636px",
               }}
               preload="none"
               playsInline
@@ -32,7 +33,14 @@ export default class Home extends Component {
             </video>
           </div>
           <h2 className="heading">
-            <strong>KASTAMONU</strong>
+            <strong style={{
+                width: "675px",
+                height: "450px",
+                color:"green",
+                fontSize:"60px",
+                "margin-top": "30px",
+                "margin-right": "670px",
+              }}>KASTAMONU</strong>
           </h2>
 
           <h5 className="sub-heading"></h5>
