@@ -46,11 +46,12 @@ export default class agri extends Component {
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Agri/Ishak-Pasa-Palace">
               <Image
                 src="https://cdn.goadventureturkey.com/agri/1-liste-ishak-pasa-sarayi.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
@@ -69,11 +70,12 @@ export default class agri extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Agri/Agri-Mountain">
               <Image
                 src="https://cdn.goadventureturkey.com/agri/4-liste-agri-dagi.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
@@ -92,11 +94,12 @@ export default class agri extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Agri/Trail-Noahs-Ark">
               <Image
                 src="https://cdn.goadventureturkey.com/agri/2-liste-nuhun-gemisi-izi.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
@@ -115,11 +118,12 @@ export default class agri extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Agri/Meya-Cayes">
               <Image
                 src="https://cdn.goadventureturkey.com/agri/2-liste-meya-magaralari.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>

@@ -46,11 +46,12 @@ export default class elazıg extends Component {
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Elazig/Harput-Castle">
               <Image
                 src="https://cdn.goadventureturkey.com/elazig/liste-harput-kalesi.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
@@ -69,11 +70,12 @@ export default class elazıg extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Elazig/Sefik-Gul-Culture-House">
               <Image
                 src="https://cdn.goadventureturkey.com/elazig/liste-sefik-gul-kultur-evi.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
@@ -92,11 +94,12 @@ export default class elazıg extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Elazig/Keban-Dam">
               <Image
                 src="https://cdn.goadventureturkey.com/elazig/liste-keban-baraj-golu.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
@@ -115,11 +118,12 @@ export default class elazıg extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Elazig/Saklikapi-Canyon">
               <Image
                 src="https://cdn.goadventureturkey.com/elazig/liste-saklikapi-kanyonu.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>

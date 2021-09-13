@@ -45,11 +45,12 @@ export default class erzurum extends Component {
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Erzurum/Twin-Minaret-Medrese">
               <Image
                 src="https://cdn.goadventureturkey.com/erzurum/1-liste-twin-minaret-medrese-1.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
@@ -68,11 +69,12 @@ export default class erzurum extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Erzurum/Ataturk-Museum">
               <Image
                 src="https://cdn.goadventureturkey.com/erzurum/liste-ataturk-museum-1.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
@@ -91,11 +93,12 @@ export default class erzurum extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Erzurum/Palandoken">
               <Image
                 src="https://cdn.goadventureturkey.com/erzurum/3-liste-palandoken.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
@@ -114,11 +117,12 @@ export default class erzurum extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Erzurum/Lake-Tortum">
               <Image
                 src="https://cdn.goadventureturkey.com/erzurum/3-liste-lake-tortum.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>

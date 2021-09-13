@@ -50,11 +50,12 @@ export default class Doguanadolu extends Component {
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Elazig">
               <Image
                 src="https://cdn.goadventureturkey.com/goturkey/elazig.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
@@ -73,11 +74,12 @@ export default class Doguanadolu extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Erzurum">
               <Image
                 src="https://cdn.goadventureturkey.com/goturkey/erzurum.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
@@ -96,11 +98,12 @@ export default class Doguanadolu extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Van">
               <Image
                 src="https://cdn.goadventureturkey.com/goturkey/van.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
@@ -119,11 +122,12 @@ export default class Doguanadolu extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
+            <Link to="/Doguanadolu/Agri">
               <Image
                 src="https://cdn.goadventureturkey.com/goturkey/agri.jpg"
                 square
                 className="profile-pic"
-              />
+              /></Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>
