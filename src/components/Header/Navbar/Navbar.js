@@ -5,9 +5,9 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 import '../Header.css'
 
 const Navbar = () => (
-  <div>
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark mdb-color darken-2 scrolling-navbar">
-      <div className="container">
+  <div >
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark mdb-color darken-2 scrolling-navbar" style={{backgroundColor:"#2999BC"}}>
+      <div className="container" >
       <ul class="social-list-left">
           <li class="social-list__item"><a class="social-list__link" href="/"><img className="img-header" alt="coding" src={Trlogo}/></a></li></ul>
  

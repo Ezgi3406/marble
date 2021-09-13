@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 
-
 import { loginUser } from '../../redux/actions';
 
 class Login extends Component {
@@ -57,6 +56,7 @@ class Login extends Component {
                   className="form-control"
                   value={this.state.email}
                   onChange={this.handleInputEmail}
+                  placeholder="your email adress"
                 />
                 <label htmlFor="Form-email">Your email</label>
               </div>
@@ -68,6 +68,7 @@ class Login extends Component {
                   className="form-control"
                   value={this.state.password}
                   onChange={this.handleInputPassword}
+                  placeholder="your password"
                 />
                 <label htmlFor="Form-password">Your password</label>
                 <p className="font-small blue-text d-flex justify-content-end">
