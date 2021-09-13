@@ -45,11 +45,12 @@ export default class van extends Component {
 <Container>
   <Row className="show-grid text-center">
     <Col xs={12} sm={3} className="person-wrapper">
+    <Link to="/Doguanadolu/Van/Akdamar-Island">
       <Image
         src="https://cdn.goadventureturkey.com/van/4-liste-akdamar-adasi.jpg"
         square
         className="profile-pic"
-      />
+      /></Link>
       <>
         <i className="fas fa-plane-departure fa-7x"></i>
         <h3></h3>
@@ -68,11 +69,12 @@ export default class van extends Component {
     </Col>
 
     <Col xs={12} sm={3} className="person-wrapper">
+    <Link to="/Doguanadolu/Van/Travertines">
       <Image
         src="https://cdn.goadventureturkey.com/van/liste-travertenler.jpg"
         square
         className="profile-pic"
-      />
+      /></Link>
       <>
         <i className="fas fa-ship fa-7x"></i>
         <h3></h3>
@@ -91,11 +93,12 @@ export default class van extends Component {
     </Col>
 
     <Col xs={12} sm={3} className="person-wrapper">
+    <Link to="/Doguanadolu/Van/Hosap-Castle">
       <Image
         src="https://cdn.goadventureturkey.com/van/2-liste-hosap-kalesi.jpg"
         square
         className="profile-pic"
-      />
+      /></Link>
       <>
         <i className="fas fa-hotel fa-7x"></i>
         <h3></h3>
@@ -114,11 +117,12 @@ export default class van extends Component {
     </Col>
 
     <Col xs={12} sm={3} className="person-wrapper">
+    <Link to="/Doguanadolu/Van/Van-Museum">
       <Image
         src="https://cdn.goadventureturkey.com/van/2-liste-van-muzesi.jpg"
         square
         className="profile-pic"
-      />
+      /></Link>
       <>
         <i className="fas fa-sun fa-7x"></i>
         <h3></h3>

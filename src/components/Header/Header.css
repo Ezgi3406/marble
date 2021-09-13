@@ -21,7 +21,7 @@ header{
     justify-content:flex-end;
     padding: 15px;;
     height: 70px;
-   position:static;
+    position:static;
 }
 header a{
     color:inherit;
@@ -60,13 +60,9 @@ header p{
     height:50px;
     display: block;
 }
-/* .fixed-header{
+/*
+.fixed-header{
     width: 100%;
-    position: fixed;        
-    padding: 0px 0;
-    color: #fff;
-    height: 120px;
-} */
-/* .fixed-header{
-    top: 0;
+    position: fixed;
+    top:0;
 } */
