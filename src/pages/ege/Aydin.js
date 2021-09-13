@@ -30,7 +30,7 @@ export default class Home extends Component {
               />
             </video>
             <h2 className="heading">AYDIN</h2>
-          {/* <h5 className="sub-heading">
+            {/* <h5 className="sub-heading">
             With us you’ll find a perfect destination in Aydın.
           </h5> */}
           </div>
@@ -51,10 +51,13 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  When the sun heats unbearably, you can always choose to go to
-                  the cave of Keloğlan. It is one of the most beautiful and cold
-                  caves in Turkey. As long as you get into the cave, you will
-                  feel the cold immediately.
+                  Söke ovası 2000 yıl kadar önce denizdi, burada büyük bir
+                  körfez vardı. Büyük Menderes ırmağının getirdiği alüvyonlar
+                  körfezi duldurdu ve ova haline getirdi. Bugünkü Bafa Gölü
+                  denizden bir parça olarak arada kaldı. Gölün üzerinde iki ada
+                  bulunmaktadır. İkiz adalardan biri aslında tam ada değil, bir
+                  kumulla karaya bağlıdır. Bafa Gölü’nde kefal, levrek, yılan
+                  balığı tutulmaktadır.
                 </p>
 
                 <p>
@@ -77,10 +80,13 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  The area of Hierapolis was exposed to be a place for many
-                  settlements for its abundant water sources. It is highly
-                  believed that the ancient city was built by the people of
-                  Pergamum. There had been a settlement existence here.
+                  Didim Marina, 2009 yılında hizmete açıldı. Didim’in içinde
+                  Çamlık Mevkiinde bulunur. Marinaya denizden yaklaşırken
+                  mendireği ve fenerleri görülür. Marina, karadan Bodrum Milas
+                  Uluslararası havaalanına 90 km, İzmir Havaalanına 145 km
+                  mesafededir. Didim’in içinde bir marina olduğu için Didim’in
+                  tüm imkanlarından yararlanır. Dalgıçlık hizmetlerinin yanında,
+                  dalış tüpü doldurmak da mümkündür.
                 </p>
                 <p>
                   <Link to="/DidinMarina">
@@ -103,9 +109,14 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation
+                  Güvercinada Kalesi, Barbaros Hayrettin Paşa tarafından
+                  yaptırılan bir iç kale ve İlyas Ağa tarafından yaptırılan
+                  surlar yer almaktadır. Bu surlar Mora isyanı sırasında
+                  adalardan ve denizden gelebilecek saldırıları önleyebilmek
+                  için yaptırılmıştır. Kalenin inşaasında kullanılan taşlar
+                  yılancıburnundan seçilerek getirilmiştir. Kalenin mimarisi
+                  beşgen şeklindedir. Kalenin girişinde bir kitabe aralığı
+                  bulunur.
                 </p>
                 <p>
                   <Link to="/Guvercinada">
@@ -119,7 +130,6 @@ export default class Home extends Component {
               <Link to="/Tralleis">
                 <Image style={{height:"255px"}}
                   src="http://localhost:3000/assets/img/places/tralleis1.jpg"
-                 
                   square
                   className="profile-pic"
                 />
@@ -129,11 +139,13 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Travertines of Pamukkale, with a fairytale look resembling a
-                  cloud field from afar, are one of the rare beauties where
-                  history and nature embrace. With its calcareous structure,
-                  snow-white color and the warmth of thermal water, they give an
-                  indescribable sense of texture
+                  Tralleis Antik Kenti Aydın’ın kuzeyinde ve Kestane dağlarının
+                  güneyinde bulunan antik kenttir.Tralleis Antik Kenti’nde,
+                  spor, eğitim ve kültürel faaliyetlerin yürütüldüğü “Üç Gözler”
+                  yapısı başta olmak üzere, hamam, tiyatro, agora ve stadium
+                  gibi yapılar bulunmaktadır. Bölgede arkeolojik çalışmalar
+                  halen sürdürülmektedir ve toprak altında kalan şehir gün
+                  yüzüne çıkarılmaktadır.
                 </p>
                 <p>
                   <Link to="/Tralleis">

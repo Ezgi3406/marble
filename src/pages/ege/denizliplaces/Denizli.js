@@ -50,10 +50,10 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  When the sun heats unbearably, you can always choose to go to
-                  the cave of Keloğlan. It is one of the most beautiful and cold
-                  caves in Turkey. As long as you get into the cave, you will
-                  feel the cold immediately.
+                  Yaklaşık 10 milyon yıldır oluşumunu sürdüren Keloğlan Mağarası, 2 büyük galerideki sarkıt ve dikitleriyle çok güzel bir havaya sahip.
+                  Rivayete göre, çok zaman önce köse bir insan bu mağaraya gelmiş ve burada uyumuş. Uyandığı zaman ise saçları çok uzamış. Yine bir rivayete göre her kim bu mağarada kalırsa, upuzun saçlarının olacağına inananılarmış. 
+
+
                 </p>
 
                 <p>
@@ -78,10 +78,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  The area of Hierapolis was exposed to be a place for many
-                  settlements for its abundant water sources. It is highly
-                  believed that the ancient city was built by the people of
-                  Pergamum. There had been a settlement existence here.
+                  Hierapolis Antik Kenti oldukça iyi biçimde korunarak günümüze ulaşmayı başarmıştır. Buranın bir termal merkez olduğu zamanlarda çok sık ziyaret edildiğini kesinlikle söyleyebileceğimiz Roma Hamamı, günümüzde arkeoloji müzesi olarak kullanılıyor. Hierapolis ve yakın çevresindeki antik kent kazılarında ortaya çıkarılan heykeller ve diğer kalıntıları burada görebilirsiniz. 
                 </p>
                 <p>
                   <Link to="/Hierapolis">
@@ -104,9 +101,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation
+                  Bosphorus Camisi tavan, kemer, sütun, kapı ve minberindeki süslemelerle dikkat çekiyor. 1767 yılında yapıldığı tahmin edilen 3 sahınlı ibadethane, tarihi süslemeleriyle görsel bir şölen sunuyor. Ahşap geometrik şekillerle bezeli bir kapıdan girilen ibadethanenin iç kısmındaki duvarlar, tavan ve ahşap desteklerde, zengin kalem işi süslemeler yer alıyor.
                 </p>
                 <p>
                   <Link to="/Bosphorus">
@@ -130,11 +125,7 @@ export default class Home extends Component {
                 <h3></h3>
                 <p>
                   {" "}
-                  Travertines of Pamukkale, with a fairytale look resembling a
-                  cloud field from afar, are one of the rare beauties where
-                  history and nature embrace. With its calcareous structure,
-                  snow-white color and the warmth of thermal water, they give an
-                  indescribable sense of texture
+                  Pamukkale Travertenleri şüphesiz herkes tarafından tanınan bu doğal güzellik, pamuğa benzeyen doğal görüntüsü ile herkesi şaşkına çevirmeyi başarmıştır. Doğal oluşumlu bir güzellik olduğu için UNESCO Dünya Miras Listesinde yer almayı başarabilmiştir. Bu açıdan yerli ve yabancı turistler tarafından çok fazla ziyaret edilmektedir.
                 </p>
                 <p>
                   <Link to="/Pamukkale">
