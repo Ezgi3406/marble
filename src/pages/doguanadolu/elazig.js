@@ -3,7 +3,7 @@ import {Container, Col, Image, Button, Row } from "react-bootstrap";
 import Header from "../../components/Header/Header";
 import "../../pages/pages.css";
 import { Link } from 'react-router-dom';
-
+import Rating from '../../components/rating'
 export default class elazıg extends Component {
     render() {
         return (
@@ -54,15 +54,16 @@ export default class elazıg extends Component {
               /></Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
-                <h3></h3>
+                <h3>Harput Castle</h3>
+                
                 <p>
-                  {" "}
+                  {""}
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
 
-                <p><Link to="/Doguanadolu/Elazig/Harput-Castle">
+                <p><Rating/><Link to="/Doguanadolu/Elazig/Harput-Castle">
                   <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>

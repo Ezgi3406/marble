@@ -492,3 +492,32 @@ Stripe Styles
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+.title-ratings {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+}
+
+.responsive-map{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .responsive-map iframe{
+  left:10%;
+  top:10%;
+  height:60%;
+  width:60%;
+  position:absolute;
+  }
+  .responsive-map ol{
+    margin-left: 75%;
+    margin-top: 5%;
+  }
+
+  .map-list-item-blue::before{
+    background-color:#168acf ;
+  }
