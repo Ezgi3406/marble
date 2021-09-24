@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../../pages/pages.css";
+import "../../../pages/pages.css";
 
 export default class Home extends Component {
   render() {
@@ -72,8 +72,10 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/DidimMarina">
                 <Image
-                  src="http://localhost:3000/assets/img/places/Didim-Marina3.jpg"
-                  square/>
+                  style={{ height: "359px" }}
+                  src="http://localhost:3000/assets/img/places/Didim-Marina2.jpg"
+                  square
+                />
               </Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
@@ -89,7 +91,7 @@ export default class Home extends Component {
                   dalış tüpü doldurmak da mümkündür.
                 </p>
                 <p>
-                  <Link to="/DidinMarina">
+                  <Link to="/DidimMarina">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -99,6 +101,7 @@ export default class Home extends Component {
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/Guvercinada">
                 <Image
+                  style={{ height: "360px" }}
                   src="http://localhost:3000/assets/img/places/guvercin-island.jpg"
                   square
                   className="profile-pic"
@@ -128,7 +131,8 @@ export default class Home extends Component {
 
             <Col xs={12} sm={3} className="person-wrapper">
               <Link to="/Tralleis">
-                <Image style={{height:"255px"}}
+                <Image
+                  style={{ height: "362px" }}
                   src="http://localhost:3000/assets/img/places/tralleis1.jpg"
                   square
                   className="profile-pic"

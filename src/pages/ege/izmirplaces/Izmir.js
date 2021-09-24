@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { Container, Col, Image, Button, Row } from "react-bootstrap";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "../../../pages/pages.css";
 export default class Home extends Component {
   render() {
     return (
       <div>
         <div className="content-wrapper">
-        <div classname="video-wrapper">
+          <div classname="video-wrapper">
             <video
               classname="video-target"
               autoPlay
@@ -29,29 +29,36 @@ export default class Home extends Component {
                 type="video/mp4"
               />
             </video>
-          {/* <Image src="/assets/img/services.jpg" /> */}
-          
-          <h2 className="heading">İZMİR</h2>
-          {/* <h5 className="sub-heading">
+            {/* <Image src="/assets/img/services.jpg" /> */}
+
+            <h2 className="heading">İZMİR</h2>
+            {/* <h5 className="sub-heading">
             With us you’ll find a perfect destination in Izmir.
           </h5> */}
-        </div>
+          </div>
         </div>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Alacati">
-              <Image src="http://localhost:3000/assets/img/places/alacatı2.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Alacati">
+                <Image
+                  src="http://localhost:3000/assets/img/places/alacatı2.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-plane-departure fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  The Çeşme district is a very popular summer resort, especially among residents of nearby İzmir, and includes historic sites such as a 16th-century castle and an old caravanserai. The white sandy beaches stretch lazily along a road lined with exquisitely built houses.
+                  Çeşme Alaçatı dinlendirici bir tatil yapmak veya bir tatlı
+                  huzur almak istiyorsanız gelebileceğiniz bir yerdir. Küçük ve
+                  sevimli Ege kasabalarını seviyorsanız mutlaka Alaçatı’yı
+                  görmelisiniz. Eski Rum mimarisini yansıtan özellikleriyle
+                  cumbalı taş evleri görünce etkilenmemeniz mümkün değildir.
+                  Kendinizi birdenbire eski zamanların huzurlu ortamında
+                  bulursunuz.
                 </p>
 
                 <p>
@@ -63,22 +70,28 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Efes">
-              <Image
-                src="http://localhost:3000/assets/img/places/ephesus1.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Efes">
+                <Image
+                  src="http://localhost:3000/assets/img/places/ephesus1.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-ship fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  Foundation of the ancient city of Ephesus within the borders of Selçuk District goes back to  <Link to="/Efes"></Link>6000 BCE. The biggest temple dedicated to Artemis, the Artemision, of 6th century BCE was built at the skirts of Ayasuluk hill infront of the earliest harbour of the city.
+                  Asırlar boyu üstün şehir planlama örneği oluşuyla, büyük öneme
+                  sahip bir liman kenti olmanın getirdiği ticaret merkezi
+                  özelliğiyle, binlerce yıl çok zengin kültüre sahip
+                  uygarlıklara ev sahipliği yapmasının kaçınılmaz sonucu olarak
+                  bir kültürler beşiği oluşuyla, Hristiyanlığın Hac merkezi
+                  olarak kabul görülmesi ve asırlardır bir dini merkez olma
+                  özelliğiyle; Efes tarihin önemli bir parçasıdır
                 </p>
                 <p>
-                <Link to="/Efes">
+                  <Link to="/Efes">
                     <Button bsStyle="primary">More</Button>
                   </Link>
                 </p>
@@ -86,19 +99,25 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Kemeralti">
-              <Image
-                src="http://localhost:3000/assets/img/places/kemeralti-bazaar.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Kemeralti">
+                <Image
+                  src="http://localhost:3000/assets/img/places/kemeralti-bazaar.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-hotel fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  In the Kemaraltı Historical Bazaar you will find products from the skilled hands of İzmir that bring together the traces of the past with the texture of the present. They sometimes take you to the past and keep the history alive and sometimes reflect modernity.
+                  Mezarlıkbaşı semtinden Konak Meydanı’na kadar uzanan bölgeyi
+                  içine alan tarihi bir çarşıdır Kemeraltı. Çarşının bugün ana
+                  caddesinin çizdiği geniş kavis, caddenin geçen yüzyıllarda var
+                  olan iç limanın etrafını dolaşmış olmasındandır. Liman,
+                  zamanla ağzına doğru dolmaya başladığından, yeni yerleşim ve
+                  ticaret sahaları açılmış ve buralar yeni binalarla
+                  değerlendirilmiştir.
                 </p>
                 <p>
                   <Link to="/Kemeralti">
@@ -109,19 +128,25 @@ export default class Home extends Component {
             </Col>
 
             <Col xs={12} sm={3} className="person-wrapper">
-            <Link to="/Kordon">
-              <Image
-                src="http://localhost:3000/assets/img/places/kordon1.jpg"
-                square
-                className="profile-pic"
-              />
+              <Link to="/Kordon">
+                <Image
+                  src="http://localhost:3000/assets/img/places/kordon1.jpg"
+                  square
+                  className="profile-pic"
+                />
               </Link>
               <>
                 <i className="fas fa-sun fa-7x"></i>
                 <h3></h3>
                 <p>
                   {" "}
-                  With a beauty that inspired many songs, Kordon is a must-see place in İzmir. It’s one of the symbols of the city, where locals and visitors meet the Aegean Sea, watch the sunset or lay down on the grass and relax during summer and spring. 
+                  Kordon, Alsancak’ın en keyifli noktası. İzmir’de iş çıkışı
+                  saatinde yapılacak en güzel şey, yiyeceğinizi, içeceğinizi
+                  kapıp Kordon boyunca uzanan çimlerde yerinizi alıp, günü
+                  batırmak. Özellikle de aylardan bahar aylarıysa, bu canlı ama
+                  aynı zamanda da dingin ortamın, İzmir’in limonata kıvamındaki
+                  havasının keyfine doyum olmuyor. Kordon boyu sıra
+                  sıra balıkçılarla dolu.
                 </p>
                 <p>
                   <Link to="/Kordon">
