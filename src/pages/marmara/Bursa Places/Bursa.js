@@ -9,13 +9,33 @@ export default class Home extends Component {
         <div className="content-wrapper">
         <div className="video-wrapper" ><video className="video-target"
     
-    autoPlay style={{filter: 'contrast(1.04) brightness(0.91)',width:"1350px",
-    height: "400px", "margin-top":"3px"}} preload="none" playsInline muted loop data-poster><source src="https://cdn.goadventureturkey.com/bursa/bursa2.mp4" type="video/mp4" />Your browser does not support the video tag.</video></div>
-          <h2 className="heading">BURSA</h2>
-          <h5 className="sub-heading">
-        
-          </h5>
-        </div>
+    autoPlay 
+    style={{
+    filter:'contrast(1.04) brightness(0.91)',
+    width:"675px",
+    height: "450px",
+    "margin-top":"30px",
+    "marginLeft":"636px",
+  }} 
+    preload="none"
+    playsInline
+    muted
+    loop
+    data-poster
+        >
+          <source src="https://cdn.goadventureturkey.com/bursa/bursa2.mp4" type="video/mp4" />Your browser does not support the video tag.</video></div>
+           </div>
+        <h2 className="heading">
+            <strong style={{
+                width: "675px",
+                height: "450px",
+                color:"black",
+                fontSize:"60px",
+                "margin-top": "30px",
+                "margin-right": "670px",
+              }}>BURSA</strong>
+          </h2>
+          <h5 className="sub-heading"></h5>
         <Container>
           <Row className="show-grid text-center">
             <Col xs={12} sm={3} className="person-wrapper">

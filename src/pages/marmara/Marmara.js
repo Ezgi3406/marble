@@ -6,20 +6,47 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="content-wrapper">
-        <div className="video-wrapper" ><video className="video-target"
-    
-    autoPlay style={{filter: 'contrast(1.04) brightness(0.91)',width:"1350px",
-    height: "400px", "margin-top":"3px"}} preload="none" playsInline muted loop data-poster><source src="https://cdn.goadventureturkey.com/marmara/marmara-1.mp4" type="video/mp4" />Your browser does not support the video tag.</video></div>
-   
-          
-
-          <h2 className="heading"><strong>MARMARA</strong></h2>
-          <h5 className="sub-heading">
-           
-          </h5>
+      <div className="content-wrapper">
+      <div class="video-wrapper">
+        <video
+            className="video-target"
+            autoPlay
+            style={{
+              filter: "contrast(1.04) brightness(0.91)",
+              width: "675px",
+              height: "450px",
+              "margin-top": "30px",
+              "margin-left": "636px",
+            }}
+            preload="none"
+            playsInline
+            muted
+            loop
+            data-poster
+          >
+            <source
+              src="https://cdn.goadventureturkey.com/marmara/marmara-1.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
-        <Container>
+
+        <h2 className="heading">
+          <strong style={{
+              width: "675px",
+              height: "450px",
+              color:"black",
+              fontSize:"60px",
+              "margin-top": "30px",
+              "margin-right": "670px",
+            }}>MARMARA</strong>
+            
+        </h2>
+        <h5 className="sub-heading"></h5>
+  </div>
+      
+     <Container>
           <Row className="show-grid text-center">
             
             <Col xs={12} sm={3} className="person-wrapper">
@@ -43,9 +70,7 @@ export default class Home extends Component {
                 </p>
               </>
             </Col>
-
-            
-            <Col xs={12} sm={3} className="person-wrapper">
+           <Col xs={12} sm={3} className="person-wrapper">
             <Link to="/bursa">
             <Image src="https://cdn.goadventureturkey.com/goturkey/bursa.jpg" square className="profile-pic"/>
             </Link>
@@ -67,15 +92,13 @@ export default class Home extends Component {
                   
               </>
             </Col>
-
-           
-            <Col xs={12} sm={3} className="person-wrapper">
+           <Col xs={12} sm={3} className="person-wrapper">
             <Link to="/istanbul">
 
             <Image src="https://cdn.goadventureturkey.com/goturkey/9-istanbul.jpg" square className="profile-pic"/>
             </Link>
               <>
-                <i className="fas fa-hotel fa-7x"></i>
+                
                 <h3></h3>
                 <p>
                   {" "}
