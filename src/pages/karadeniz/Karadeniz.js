@@ -175,7 +175,33 @@ export default class Home extends Component {
             </Col>
           </Row>
         </Container>
+        <div class="responsive-map">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1N0XkRDKNL60gKJvPMPsXnRAO40-J4sEa" width="400" height="400"
+        style={{ border: "0" }}
+        allowfullscreen=""
+        loading="lazy"></iframe>
+          
+          <ol class="map-list"><strong>Gezilecek Yerler</strong>
+            <li class="map-list-item-blue">Abant Golu</li>
+            <li class="map-list-item-blue">Mudurnu</li>
+            <li class="map-list-item-blue">Seben Kaya Evleri</li>
+            <li class="map-list-item-blue">Yedigoller Milli Parki</li>
+            <li class="map-list-item-blue">Giresun Adasi</li>
+            <li class="map-list-item-blue">Kumbet Yaylasi</li>
+            <li class="map-list-item-blue">Mavi Gol</li>
+            <li class="map-list-item-blue">Zeytinlik Mahallesi</li>
+            <li class="map-list-item-blue">El Sanatlari Carsisi</li>
+            <li class="map-list-item-blue">Etnografya Muzesi</li>
+            <li class="map-list-item-blue">Ilgaz Dagi</li>
+            <li class="map-list-item-blue">Kastamonu kalesi</li>
+            <li class="map-list-item-blue">Ataturk Kosku</li>
+            <li class="map-list-item-blue">Gulbahar Hatun Camii</li>
+            <li class="map-list-item-blue">Sumela Manastiri</li>
+            <li class="map-list-item-blue">Uzungol</li>
+          </ol>
+        </div>
       </div>
+      
     );
   }
 }
